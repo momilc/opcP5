@@ -20,7 +20,7 @@
     } else {
         $controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
         $action = $page[1];
-        var_dump($page);
+       
     }
 
     $controller = new $controller();
