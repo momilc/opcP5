@@ -24,4 +24,4 @@ require '../../controller/site/personnage.php'; // Appel de la classe Personnage
 
 
 
-header("Localisation: ../../view/site/index.php");
+header("Localisation: ../../view/site/index.twig");
