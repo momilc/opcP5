@@ -1,15 +1,15 @@
 <?php
 namespace Core;
 
-class Config {
+class MyConfig {
 
     private $settings = [];
     private static $_instance;
 
     public static function getInstance($file) {
         if (is_null(self::$_instance)) {
-            self::$_instance = new Config($file);
-            var_dump($file);
+            self::$_instance = new MyConfig($file);
+
         }
 
         return self::$_instance;
@@ -26,5 +26,4 @@ class Config {
         }
         return $this->settings[$key];
     }
-
 }

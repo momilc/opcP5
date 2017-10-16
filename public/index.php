@@ -1,27 +1,38 @@
 <?php
     require '../vendor/autoload.php';
+    require '../core/Database/MysqlDatabase.php';
     define('ROOT', dirname(__DIR__));
-    require ROOT .'/app/App.php';
+    require '../app/app.php';
+
     App::load();
 
     if(isset($_GET['p'])) {
         $page = $_GET['p'];
     } else {
 
-        $page = 'posts.index';
+        $page = 'index';
     }
 
-    $page = explode('.', $page);
 
-    if ($page[0] == 'admin') {
-        $controller = '\App\Controller\Admin\\' . ucfirst($page[1]) . 'Controller';
-        $action = $page[2];
+    $loader = new Twig_Loader_Filesystem( '../../app/Views/posts/', 'index.twig');
+    $twig = new Twig_Environment($loader, [
+        'cache' => false,
+        'debug' => true
+    ]);
 
-    } else {
-        $controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
-        $action = $page[1];
-        var_dump($page);
+    $twig->addExtension(new App());
+    $twig->addExtension(new \Core\Database\MysqlDatabase('mon_blog'));
+    $twig->addExtension(new Twig_Extension_Debug());
+    $twig->addExtension(new Twig_Extensions_extension_Text());
+    $twig->addGlobal('current_page', $page);
+
+
+    switch ($page) {
+        case 'index';
+        echo $twig->render('index.twig',
+            [
+                'articles' => \Core\Database\MysqlDatabase::articles(),
+                'categories' => \Core\Database\MysqlDatabase::categories()
+            ]);
+        break;
     }
-
-    $controller = new $controller();
-    $controller->$action();

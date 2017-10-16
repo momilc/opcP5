@@ -2,6 +2,7 @@
 
 namespace Core\Database;
 
-class Database {
+
+class Database  {
 
 }

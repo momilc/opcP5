@@ -1,9 +1,9 @@
 <?php
 
-use Core\Config;
+use Core\MyConfig;
 use Core\Database\MysqlDatabase;
 
-class  App {
+class  App extends Twig_Extension {
 
     public $title = 'Blog Mo Opcr P5';
     private $db_instance;
@@ -19,10 +19,36 @@ class  App {
 
     public static function load() {
         session_start();
-        require ROOT .'/app/Autoloader.php';
+        require '../app/Autoloader.php';
         App\Autoloader::register();
-        require ROOT . '/Core/Autoloader.php';
+        require '../Core/Autoloader.php';
         Core\Autoloader::register();
+    }
+
+    public function getFilters()
+    {
+        return [
+            new Twig_SimpleFilter('markdown', [$this, 'markdownParse'], ['is_safe' => ['html']])];
+
+    }
+
+    public function markdownParse($value) {
+
+        return \Michelf\MarkdownExtra::defaultTransform($value);
+    }
+
+    public function getFunctions()
+    {
+        return [
+            new Twig_SimpleFunction('activeClass', [$this, 'activeClass'], ['needs_context' => true])
+        ];
+    }
+
+    public function activeClass(array $context, $page) {
+        if (isset($context['current_page']) && $context['current_page'] === $page){
+            return ' active ';
+        }
+
     }
 
     public function getTable($name) {
@@ -31,10 +57,13 @@ class  App {
     }
 
     public function getDb() {
-        $config = Config::getInstance(ROOT. '/core/Config.php');
+        $config = MyConfig::getInstance(ROOT. '/core/MyConfig.php');
          if(is_null($this->db_instance)) {
              $this->db_instance = new MysqlDatabase($config->get('db_name'), $config->get('db_user'), $config->get('db_pass'), $config->get('db_host'));
          }
          return $this->db_instance;
     }
+
+
+
 }
