@@ -9,6 +9,7 @@ class Config {
     public static function getInstance($file) {
         if (is_null(self::$_instance)) {
             self::$_instance = new Config($file);
+            var_dump($file);
         }
 
         return self::$_instance;
