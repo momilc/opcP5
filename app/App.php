@@ -1,6 +1,6 @@
 <?php
 
-use Core\MyConfig;
+use Core\Config;
 use Core\Database\MysqlDatabase;
 
 class  App extends Twig_Extension {
@@ -28,9 +28,9 @@ class  App extends Twig_Extension {
     public function getFilters()
     {
         return [
-            new Twig_SimpleFilter('markdown', [$this, 'markdownParse'], ['is_safe' => ['html']])];
-
+            new Twig_SimpleFilter('markdown', [$this, 'markdownParse'],['is_safe' =>['html']])];
     }
+
 
     public function markdownParse($value) {
 
@@ -57,13 +57,10 @@ class  App extends Twig_Extension {
     }
 
     public function getDb() {
-        $config = MyConfig::getInstance(ROOT. '/core/MyConfig.php');
+        $config = Config::getInstance(ROOT. '/core/Config.php');
          if(is_null($this->db_instance)) {
              $this->db_instance = new MysqlDatabase($config->get('db_name'), $config->get('db_user'), $config->get('db_pass'), $config->get('db_host'));
          }
          return $this->db_instance;
     }
-
-
-
 }

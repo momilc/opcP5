@@ -1,6 +1,5 @@
 <?php
     require '../vendor/autoload.php';
-    require '../core/Database/MysqlDatabase.php';
     define('ROOT', dirname(__DIR__));
     require '../app/app.php';
 
@@ -10,9 +9,10 @@
         $page = $_GET['p'];
     } else {
 
-        $page = 'index';
+        $page = 'posts.index';
     }
 
+    $page = explode('.', $page);
 
     $loader = new Twig_Loader_Filesystem( '../../app/Views/posts/', 'index.twig');
     $twig = new Twig_Environment($loader, [
@@ -27,12 +27,14 @@
     $twig->addGlobal('current_page', $page);
 
 
-    switch ($page) {
-        case 'index';
-        echo $twig->render('index.twig',
-            [
-                'articles' => \Core\Database\MysqlDatabase::articles(),
-                'categories' => \Core\Database\MysqlDatabase::categories()
-            ]);
-        break;
+    if ($page[0] == 'admin') {
+        $controller = '\App\Controller\Admin\\' . ucfirst($page[1]) . 'Controller';
+        $action = $page[2];
+    } else {
+        $controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
+        $action  = $page[1];
     }
+    $controller = new $controller;
+    $controller->$action();
+
+

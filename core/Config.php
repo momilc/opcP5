@@ -1,27 +1,29 @@
 <?php
+
 namespace Core;
+use \Twig_Extension;
 
-class MyConfig {
 
+class Config extends Twig_Extension
+{
     private $settings = [];
     private static $_instance;
 
     public static function getInstance($file) {
-        if (is_null(self::$_instance)) {
-            self::$_instance = new MyConfig($file);
-
+        if (is_null(self::$_instance)){
+            self::$_instance = new Config($file);
         }
-
         return self::$_instance;
     }
 
+
     public function __construct($file)
     {
-        $this->settings = require ($file);
+        $this->settings = require($file);
     }
 
     public function get($key) {
-        if (!isset($this->settings[$key])) {
+        if (!isset($this->settings[$key])){
             return null;
         }
         return $this->settings[$key];

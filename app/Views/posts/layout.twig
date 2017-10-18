@@ -26,13 +26,12 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">Hidden brand</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-link" href="index.php?p=index">
-                    <a>Accueil</a>
-                </li>
-                    <li class="nav-link" href="index.php?p=contact">
-                        <a>Contact</a>
+                    <li class="nav-item {{ activeClass('home')}}">
+                        <a class="nav-link" href="index.php?p=index">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
+                    <li class="nav-item {{ activeClass('contact')}}">
+                        <a class="nav-link" href="index.php?p=contact">Contact</a>
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">

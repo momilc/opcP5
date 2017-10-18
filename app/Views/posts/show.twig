@@ -1,0 +1,17 @@
+{% block content %}
+
+
+    {% for articles in articles %}
+
+        <div class="col-md-8">
+
+            <h4 class="card-title">{{ articles.titre }}</h4>
+            <p class="card-text">{{ articles.contenu | markdown | striptags }}</p>
+            <p class="card-text">{{ categories.titre }} </p>
+
+        </div>
+
+
+    {% endfor %}
+
+{% endblock %}
