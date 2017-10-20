@@ -2,7 +2,7 @@
 define('ROOT', dirname(__DIR__));
 require ROOT. '/vendor/autoload.php';
 require ROOT. '/app/app.php';
-App::load();
+
 
 if(isset($_GET['p'])) {
     $page = $_GET['p'];
@@ -20,6 +20,7 @@ $twig = new Twig_Environment($loader, [
 ]);
 
 $twig->addExtension(new App());
+$twig->addExtension(new \Core\Database\MysqlDatabase('mon_blog'));
 $twig->addExtension(new Twig_Extension_Debug());
 $twig->addExtension(new Twig_Extensions_extension_Text());
 $twig->addGlobal('current_page', $page);
@@ -35,3 +36,5 @@ if ($page[0] == 'admin') {
 
 $controller = new $controller($twig);
 $controller->$action();
+
+

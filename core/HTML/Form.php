@@ -2,7 +2,7 @@
 namespace Core\HTML;
 
 
-class Form {
+class Form extends \Twig_Extension {
     /***
      *@var array Données utilisées par le formulaire
      */

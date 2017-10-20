@@ -58,14 +58,14 @@ class Table {
         }
 
         $sql_parts = implode(',', $sql_parts);
-        if (!empty($attributes)) {
+
             return $this->query("INSERT INTO {$this->table} SET $sql_parts", $attributes, true );
-        }
+
     }
 
     public function query($statement, $attributes = null, $one = false){
         if($attributes) {
-            return $this->db->$this->MysqlDatabase->prepare(
+            return $this->db->prepare(
                 $statement,
                 $attributes,
                 str_replace('Table', 'Entity', get_class($this)
@@ -73,7 +73,7 @@ class Table {
                 $one
             );
         } else {
-            return $this->db->$this->MysqlDatabase->query(
+            return $this->db->query(
                 $statement,
                 str_replace('Table', 'Entity', get_class($this)
                 ),

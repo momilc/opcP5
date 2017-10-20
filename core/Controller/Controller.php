@@ -1,19 +1,21 @@
 <?php
 
 namespace  Core\Controller;
-
+use \Twig_Environment;
 
 class Controller  {
 
     protected $viewPath;
     protected $template;
+    private $twig;
+
+    public function __construct(Twig_Environment $twig)
+    {
+        $this->twig = $twig;
+    }
 
     protected  function render($view, $variables = []) {
-        ob_start();
-        extract($variables);
-        require ($this->viewPath .str_replace('.', '/', $view) . '.php');
-        $content = ob_get_clean();
-        require ($this->viewPath . 'templates/' . $this->template . '.php');
+       echo $this->twig->render($view, $variables);
     }
 
     protected function forbidden() {

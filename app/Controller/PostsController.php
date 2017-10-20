@@ -5,12 +5,14 @@ use \App;
 
 class PostsController extends AppController {
 
-    public function __construct()
+
+    public function __construct($twig)
     {
-        parent::__construct();
+        parent::__construct($twig);
         $this->loadModel('Post');
         $this->loadModel('Category');
     }
+
 
     public function index()  {
 
