@@ -13,12 +13,18 @@ class Controller  {
         extract($variables);
         require ($this->viewPath .str_replace('.', '/', $view) . '.php');
         $content = ob_get_clean();
-        require ($this->viewPath . '/app/views/templates/' . $this->template . '.php');
+        require ($this->viewPath . 'templates/' . $this->template . '.php');
     }
 
     protected function forbidden() {
+        header('HTTP/1.0 403 Forbiden');
+        die('Page introuvable');
+    }
+
+    protected static function notFound(){
         header('HTTP/1.0 404 Not Found');
         die('Page introuvable');
     }
+
 
 }

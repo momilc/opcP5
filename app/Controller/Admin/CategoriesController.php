@@ -25,9 +25,10 @@ class CategoriesController extends AppController
             ]);
                 return $this->index();
         }
-            $form = new BootstrapForm($_POST);
+        $form = new BootstrapForm($_POST);
         $this->render('admin.categories.edit', compact('form'));
     }
+
     public function edit() {
         if (!empty($_POST)) {
             $result = $this->Category->update([
@@ -40,6 +41,7 @@ class CategoriesController extends AppController
         $form = new BootstrapForm($category);
         $this->render('admin.categories.edit', compact('form'));
     }
+
     public function delete() {
         if (!empty($_POST)) {
             $result = $this->Category->delete($_POST['id']);

@@ -7,9 +7,6 @@ use \Core\HTML\BootstrapForm;
 class PostsController extends AppController
 {
 
-    private $Post;
-    private $Category;
-
     public function __construct()
     {
         parent::__construct();

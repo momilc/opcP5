@@ -19,10 +19,23 @@ class  App extends Twig_Extension {
 
     public static function load() {
         session_start();
-        require '../app/Autoloader.php';
+        require ROOT. '/app/Autoloader.php';
         App\Autoloader::register();
-        require '../Core/Autoloader.php';
+        require ROOT. '/core/Autoloader.php';
         Core\Autoloader::register();
+    }
+
+    public function getTable($name) {
+        $class_name = '\\App\\Table\\' .ucfirst($name) . 'Table';
+            return new $class_name($this->getDb());
+    }
+
+    public function getDb() {
+        $config = Config::getInstance(ROOT. '/config/config.php');
+         if(is_null($this->db_instance)) {
+             $this->db_instance = new MysqlDatabase($config->get('db_name'), $config->get('db_user'), $config->get('db_pass'), $config->get('db_host'));
+         }
+         return $this->db_instance;
     }
 
     public function getFilters()
@@ -30,7 +43,6 @@ class  App extends Twig_Extension {
         return [
             new Twig_SimpleFilter('markdown', [$this, 'markdownParse'],['is_safe' =>['html']])];
     }
-
 
     public function markdownParse($value) {
 
@@ -49,18 +61,5 @@ class  App extends Twig_Extension {
             return ' active ';
         }
 
-    }
-
-    public function getTable($name) {
-        $class_name = '\\App\\Table\\' .ucfirst($name) . 'Table';
-            return new $class_name($this->getDb());
-    }
-
-    public function getDb() {
-        $config = Config::getInstance(ROOT. '/core/Config.php');
-         if(is_null($this->db_instance)) {
-             $this->db_instance = new MysqlDatabase($config->get('db_name'), $config->get('db_user'), $config->get('db_pass'), $config->get('db_host'));
-         }
-         return $this->db_instance;
     }
 }

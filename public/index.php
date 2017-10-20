@@ -1,8 +1,7 @@
 <?php
-    require '../vendor/autoload.php';
     define('ROOT', dirname(__DIR__));
-    require '../app/app.php';
-
+    require ROOT. '/vendor/autoload.php';
+    require ROOT. '/app/app.php';
     App::load();
 
     if(isset($_GET['p'])) {
@@ -14,7 +13,7 @@
 
     $page = explode('.', $page);
 
-    $loader = new Twig_Loader_Filesystem( '../../app/Views/posts/', 'index.twig');
+    $loader = new Twig_Loader_Filesystem( __DIR__. '/templates');
     $twig = new Twig_Environment($loader, [
         'cache' => false,
         'debug' => true
@@ -34,6 +33,7 @@
         $controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
         $action  = $page[1];
     }
+
     $controller = new $controller;
     $controller->$action();
 
