@@ -12,18 +12,19 @@ class MysqlDatabase extends Database {
     private $db_host;
     private $pdo;
 
-    public function __construct($db_name = 'mon_blog', $db_user = 'root', $db_pass = 'hgt£U!52V#§',$db_host = 'localhost')
+    public function __construct($db_name, $db_user = 'root', $db_pass = 'hgt£U!52V#§', $db_host = 'localhost')
     {
         $this->db_name = $db_name;
         $this->db_user = $db_user;
         $this->db_pass = $db_pass;
         $this->db_host = $db_host;
+
     }
 
     private function getPDO() {
         if ($this->pdo === null) {
 
-            $pdo = new PDO('mysql:db_name=mon_blog:host=localhost', 'root', 'hgt£U!52V#§');
+            $pdo = new PDO('mysql:dbname=mon_blog;host=localhost', 'root', 'hgt£U!52V#§');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
             $this->pdo = $pdo;
@@ -33,6 +34,7 @@ class MysqlDatabase extends Database {
     }
 
     public function query($statement, $class_name = null, $one = false) {
+
         $req = $this->getPDO()->query($statement);
         if (
             strpos($statement, 'UPDATE') === 0 ||

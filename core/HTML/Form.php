@@ -1,8 +1,8 @@
 <?php
 namespace Core\HTML;
+use \Twig_Extension;
 
-
-class Form extends \Twig_Extension {
+class Form extends Twig_Extension {
     /***
      *@var array Données utilisées par le formulaire
      */

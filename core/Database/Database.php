@@ -2,6 +2,6 @@
 
 namespace Core\Database;
 
-class Database {
+class Database extends \Twig_Extension {
 
 }

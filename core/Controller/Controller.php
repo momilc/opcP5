@@ -3,7 +3,7 @@
 namespace  Core\Controller;
 use \Twig_Environment;
 
-class Controller  {
+class Controller extends \Twig_Extension {
 
     protected $viewPath;
     protected $template;
@@ -15,7 +15,7 @@ class Controller  {
     }
 
     protected  function render($view, $variables = []) {
-       echo $this->twig->render($view, $variables);
+        return $this->twig->render($view, $variables);
     }
 
     protected function forbidden() {

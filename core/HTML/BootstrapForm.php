@@ -1,5 +1,6 @@
 <?php
 namespace Core\HTML;
+use \Twig_Extension;
 
 class BootstrapForm extends Form {
     /***
@@ -50,4 +51,6 @@ class BootstrapForm extends Form {
      public function submit(){
          return $this->surround('<button type="submit" class="btn btn-primary">Envoyer</button>', false);
      }
+
+
 }

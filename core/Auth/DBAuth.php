@@ -14,7 +14,7 @@ class DBAuth {
     }
 
     public function getUserId() {
-        if ($this->logged()) {
+        if ($this->logged()){
             return $_SESSION['auth'];
         }
         return false;
@@ -31,7 +31,7 @@ class DBAuth {
         SELECT * FROM users WHERE username = ?', [$username], null, $one = true);
         if ($user) {
             if ($user->password === sha1($password)) {
-                $_SESSION['auth'] == $user->id;
+                $_SESSION['auth'] = $user->id;
                 return true;
             }
         }

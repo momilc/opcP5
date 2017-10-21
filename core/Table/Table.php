@@ -1,14 +1,21 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: LSM
+ * Date: 02/10/2017
+ * Time: 23:39
+ */
 namespace Core\Table;
 use \Core\Database\Database;
+use Core\Database\MysqlDatabase;
+use \Twig_Extension;
 
-
-class Table {
-
-    protected $table;
+class Table extends Twig_Extension
+{
+    protected  $table;
     protected $db;
 
-    public function __construct(Database $db)
+    public function __construct(MysqlDatabase $db)
     {
         $this->db = $db;
         if (is_null($this->table)) {
@@ -16,10 +23,11 @@ class Table {
             $class_name = end($parts);
             $this->table = strtolower(str_replace('Table', '', $class_name));
         }
+
     }
 
     public function all(){
-        return $this->query('SELECT * FROM' . $this->table);
+        return $this->query('SELECT * FROM '. $this->table);
     }
 
     public function find($id) {
@@ -29,7 +37,7 @@ class Table {
     public function extract($key, $value) {
         $records = $this->all();
         $return = [];
-        foreach ($records as $v) {
+        foreach ($records as $v){
             $return [$v->$key] = $v->$value;
         }
         return $return;
@@ -37,16 +45,16 @@ class Table {
 
     public function update($id, $fields) {
         $sql_parts = [];
-        foreach ($fields as $k => $v) {
+        foreach ($fields as $k => $v){
             $sql_parts[] = "$k = ?";
             $attributes[] = $v;
         }
         $attributes[] = $id;
-        $sql_parts = implode(',',$sql_parts);
-        return $this->query("UDPADE {$this->table} SET $sql_parts WHERE id= ?", $attributes, true);
+        $sql_parts = implode(',', $sql_parts);
+        return $this->query("UPDATE {$this->table} SET $sql_parts WHERE id = ?", $attributes, true);
     }
 
-    public function delete($id){
+    public function delete($id) {
         return $this->query("DELETE FROM {$this->table} WHERE id = ?", [$id], true);
     }
 
@@ -57,33 +65,26 @@ class Table {
             $attributes[] = $v;
         }
 
-        $sql_parts = implode(',', $sql_parts);
-
-            return $this->query("INSERT INTO {$this->table} SET $sql_parts", $attributes, true );
-
+        $sql_part = implode(',', $sql_parts);
+        return $this->query("INSERT INTO {$this->table} SET $sql_part", $attributes, true);
     }
 
-    public function query($statement, $attributes = null, $one = false){
-        if($attributes) {
+
+    public function query($statement, $attributes = null, $one = false) {
+        if ($attributes) {
             return $this->db->prepare(
                 $statement,
                 $attributes,
-                str_replace('Table', 'Entity', get_class($this)
-                ),
+                str_replace('Table', 'Entity', get_class($this)),
                 $one
             );
         } else {
             return $this->db->query(
                 $statement,
-                str_replace('Table', 'Entity', get_class($this)
-                ),
+                str_replace('Table', 'Entity', get_class($this)),
                 $one
             );
         }
     }
 
-
-    }
-
-
-
+}
