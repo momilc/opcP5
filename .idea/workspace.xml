@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/posts/login.html.twig" afterPath="$PROJECT_DIR$/app/Views/posts/login.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Views/posts/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
               <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Views/posts/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -146,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Views/admin/categories/edit.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/categories/index.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/posts/edit.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/posts/index.php" />
@@ -197,6 +205,7 @@
         <option value="$PROJECT_DIR$/app/Views/posts/index.html.twig" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/Views/posts/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/posts/layout.html.twig" />
       </list>
     </option>
   </component>
@@ -366,7 +375,7 @@
       <workItem from="1508487316007" duration="42416000" />
       <workItem from="1508584283340" duration="19591000" />
       <workItem from="1508677714121" duration="11962000" />
-      <workItem from="1508711752824" duration="8903000" />
+      <workItem from="1508711752824" duration="9097000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -438,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508720663123</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Login page without FOR !!!">
+      <created>1508720738505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508720738505</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169607000" />
+    <option name="totallyTimeSpent" value="169801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -505,7 +521,8 @@
     <MESSAGE value="Index Shows Articles (title, content, date) and Categories on Sidebar&#10;&#10;Markdown&#10;Twig extensions" />
     <MESSAGE value="New Controllers" />
     <MESSAGE value="Affichages Articles en Page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Affichages Articles en Page d'accueil" />
+    <MESSAGE value="Login page without FOR !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login page without FOR !!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,13 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/posts/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -852,6 +862,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/posts/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding />
         </state>
       </provider>
