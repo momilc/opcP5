@@ -12,7 +12,7 @@ use \Twig_Extension;
 
 class Table extends Twig_Extension
 {
-    protected  $table;
+    protected $table;
     protected $db;
 
     public function __construct(MysqlDatabase $db)

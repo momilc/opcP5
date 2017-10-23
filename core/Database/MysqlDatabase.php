@@ -4,7 +4,7 @@ namespace Core\Database;
 use \PDO;
 
 
-class MysqlDatabase extends Database {
+class MysqlDatabase extends \Twig_Extension {
 
     private $db_name;
     private $db_user;

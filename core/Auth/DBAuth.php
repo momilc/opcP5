@@ -3,8 +3,9 @@
 namespace  Core\Auth;
 
 use Core\Database\MysqlDatabase;
+use \Twig_Extension;
 
-class DBAuth {
+class DBAuth extends Twig_Extension {
 
     private $db;
 

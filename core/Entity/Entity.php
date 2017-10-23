@@ -2,7 +2,7 @@
 
 namespace Core\Entity;
 
-class Entity
+class Entity extends \Twig_Extension
 {
     public function __get($key)
     {
