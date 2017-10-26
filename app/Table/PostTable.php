@@ -26,14 +26,6 @@ class PostTable extends Table
         ORDER BY articles.date DESC");
     }
 
-  /*  function last()
-    {
-        $pdo = new PDO('mysql:dbname=mon_blog;host=localhost', 'root', 'hgt£U!52V#§');
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
-        $blog = $pdo->query('SELECT * FROM articles ORDER BY id DESC LIMIT 10');
-        return (array($blog));
-    }*/
 
     /**
      * Récupère les derniers articles de la catégorie demandée

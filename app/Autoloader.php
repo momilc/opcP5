@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class Autoloader
+class Autoloader extends \Twig_Extension
 {
     /**
      * Enregistrer notre autoloader

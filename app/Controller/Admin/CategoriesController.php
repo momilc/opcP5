@@ -7,15 +7,15 @@ use \Core\HTML\BootstrapForm;
 
 class CategoriesController extends AppController
 {
-    public function __construct()
+    public function __construct(\twig_Environment $twig)
     {
-        parent::__construct();
+        parent::__construct($twig);
         $this->loadModel('Category');
     }
 
     public function index(){
         $items = $this->Category->all();
-        $this->render('admin.categories.index', compact('items'));
+        return $this->render('admin.categories.index', compact('items'));
     }
 
     public function add() {
@@ -26,7 +26,7 @@ class CategoriesController extends AppController
                 return $this->index();
         }
         $form = new BootstrapForm($_POST);
-        $this->render('admin.categories.edit', compact('form'));
+        return $this->render('admin.categories.edit', compact('form'));
     }
 
     public function edit() {
@@ -39,7 +39,7 @@ class CategoriesController extends AppController
 
         $category = $this->Category->find($_GET['id']);
         $form = new BootstrapForm($category);
-        $this->render('admin.categories.edit', compact('form'));
+       return $this->render('admin.categories.edit', compact('form'));
     }
 
     public function delete() {
@@ -48,6 +48,6 @@ class CategoriesController extends AppController
 
                 return $this->index();
         }
-
+        return $this->render('admin.categories.index');
     }
 }

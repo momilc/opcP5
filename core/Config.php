@@ -4,7 +4,7 @@ namespace Core;
 use \Twig_Extension;
 
 
-class Config
+class Config extends Twig_Extension
 {
     private $settings = [];
     private static $_instance;

@@ -2,12 +2,14 @@
 
 namespace  Core\Controller;
 use \Twig_Environment;
+use \Twig_Extension;
 
-class Controller extends \Twig_Extension {
+class Controller extends Twig_Extension {
 
     protected $viewPath;
     protected $template;
     private $twig;
+
 
     public function __construct(Twig_Environment $twig)
     {

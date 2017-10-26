@@ -7,15 +7,15 @@ use \Core\HTML\BootstrapForm;
 class PostsController extends AppController
 {
 
-    public function __construct()
+    public function __construct(\twig_Environment $twig)
     {
-        parent::__construct();
-        $this->loadModel('Post');
+        parent::__construct($twig);
+        return $this->loadModel('Post');
     }
 
     public function index() {
         $posts = $this->Post->all();
-        $this->render('admin.posts.index'); compact('posts');
+        return $this->render('admin.posts.index', compact('posts'));
     }
 
     public function add() {
@@ -33,7 +33,7 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($_POST);
-        $this->render('admin.posts.edit', compact('categories', 'form'));
+        return $this->render('admin.posts.edit', compact('categories', 'form'));
     }
 
     public function edit(){
@@ -52,7 +52,7 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        $this->render('admin.posts.edit', compact('categories', 'form'));
+        return $this->render('admin.posts.edit', compact('categories', 'form'));
 
     }
 
@@ -61,5 +61,6 @@ class PostsController extends AppController
             $result = $this->Post->delete($_POST['id']);
             return $this->index();
         }
+        return $this->render('admin.categories.index');
     }
 }

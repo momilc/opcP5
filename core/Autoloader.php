@@ -1,14 +1,14 @@
 <?php
 
 namespace Core;
-
+use \Twig_Extension;
 
 /**
  * Class Autoloader
  * @package opcP5
  */
 
-class Autoloader {
+class Autoloader extends Twig_Extension {
     /**
      * Enregistrer un autoloader
      */

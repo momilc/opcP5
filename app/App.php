@@ -60,6 +60,5 @@ class  App extends Twig_Extension {
         if (isset($context['current_page']) && $context['current_page'] === $page){
             return ' active ';
         }
-
     }
 }
