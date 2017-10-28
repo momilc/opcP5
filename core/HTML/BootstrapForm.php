@@ -8,6 +8,11 @@ class BootstrapForm extends Form {
      * @param $label
      * @return string
      */
+    public function __construct(array $data = array())
+    {
+        parent::__construct($data);
+        $this->data = $data;
+    }
 
     protected function surround($html, $label){
         return "<div class=\"form-group\">{$html} {$label}</div>";

@@ -2,6 +2,6 @@
     "require": {
         "twig/twig": "~2.0",
         "twig/extensions": "^1.5",
-        "michelf/php-markdown": "^1.7"
+        "michelf/php-markdown": "*"
     }
 }

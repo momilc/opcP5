@@ -18,25 +18,30 @@ class PostsController extends AppController {
 
         $posts = $this->Post->last();
         $categories = $this->Category->all();
-        ['posts' => $posts, 'categories' => $categories]; //Portée des variables $posts et $ Categories
-        $this->render('index.html.twig', compact('posts', 'categories')); //Avec compact() on crée le tableau contenant $posts et $categories
-
+        echo $this->render('index.html.twig',  ['articles' => $posts, 'categories' => $categories]);
     }
 
     public function category() {
         $categories = $this->Category->find($_GET['id']);
+
         if ($categories === false) {
             $this->notFound();
         }
 
-        $articles = $this->Post->lastByCategory($_GET['id']);
+        $posts = $this->Post->lastByCategory($_GET['id']);
         $categories = $this->Category->all();
-        $this->render('posts.category.html.twig', compact('articles', 'categories', 'categorie'));
+/*        $this->render('category.html.twig', compact('articles', 'categories', 'categorie'));*/
+        echo $this->render('category.html.twig',  ['articles' => $posts, 'categories' => $categories]);
+
     }
 
     public function show() {
-        $article = $this->Post->findwithCategory($_GET['id']);
-        $this->render('posts.show.html.twig', compact('article'));
+        $posts = $this->Post->findwithCategory($_GET['id']);
+        echo $this->render('show.html.twig', ['articles' => $posts]);
+    }
 
+    public function contact() {
+        $forms = $this->form;
+        echo $this->render('contact.html.twig', ['form' => $forms]);
     }
 }
