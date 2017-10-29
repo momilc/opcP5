@@ -12,6 +12,7 @@ class BootstrapForm extends Form {
     {
         parent::__construct($data);
         $this->data = $data;
+
     }
 
     protected function surround($html, $label){
@@ -54,7 +55,7 @@ class BootstrapForm extends Form {
       * @return string
       */
      public function submit(){
-         return $this->surround('<button type="submit" class="btn btn-primary">Envoyer</button>', false);
+         return $this->input('<button type="submit" class="btn btn-primary">Envoyer</button>', false);
      }
 
 

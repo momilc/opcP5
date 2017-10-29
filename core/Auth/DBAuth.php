@@ -3,6 +3,7 @@
 namespace  Core\Auth;
 
 use Core\Database\MysqlDatabase;
+use function Couchbase\passthruDecoder;
 use \Twig_Extension;
 
 class DBAuth extends Twig_Extension {
@@ -29,9 +30,9 @@ class DBAuth extends Twig_Extension {
 
     public function login($username, $password) {
         $user = $this->db->prepare('
-        SELECT * FROM users WHERE username = ?', [$username], null, $one = true);
+        SELECT * FROM users WHERE username = ?',[$username],  null, $one = true);
         if ($user) {
-            if ($user->password === sha1($password)) {
+            if ($user->password == sha1( $password)) {
                 $_SESSION['auth'] = $user->id;
                 return true;
             }

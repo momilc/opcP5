@@ -1,14 +1,12 @@
 <?php
-
 use Core\Config;
 use Core\Database\MysqlDatabase;
 
-class  App extends Twig_Extension {
-
+class App extends Twig_Extension
+{
     public $title = 'Blog Mo Opcr P5';
     private $db_instance;
     private static $_instance;
-
 
     public static function getInstance() {
         if (is_null(self::$_instance)) {
@@ -59,6 +57,6 @@ class  App extends Twig_Extension {
     public function activeClass(array $context, $page) {
         if (isset($context['current_page']) && $context['current_page'] === $page){
             return ' active ';
-        }
+        } return null;
     }
 }
