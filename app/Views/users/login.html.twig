@@ -1,0 +1,37 @@
+{% extends '/templates/with-sidebar.html.twig' %}
+{% import '/templates/form.html.twig' as form %}
+
+{% block head %}
+
+    <title>Login</title>
+{% endblock %}
+
+
+{% block main %}
+    <div class="container-fluid">
+        <h1> {{ current_page }} </h1>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form method="post">
+                {% if errors %}
+                <div class="alert alert-danger">
+                    Identifiants incorrects
+                </div>
+                {% endif %}
+
+                    <div class="form-group">
+                        {{ form.input('username', 'Login', name, {class: 'col-md-6', type: 'text'}) }}
+                        {{ form.input('password', 'Mot de passe', password, {class: 'col-md-6', type: 'password' }) }}
+                        {{ form.button('Envoyer',submit, {class: 'col-md', type: 'submit'}) }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+             {#      <label>Login: <input name="username" type="text"></label>
+                       <label>Mot de passe: <input name="password" type="password"></label>
+                        <button class="btn btn-primary" type="submit">Envoyer</button>#}

@@ -1,0 +1,47 @@
+{% extends '/with-sidebar.html.twig' %}
+
+{% block head %}
+    <title>Accueil</title>
+{% endblock %}
+
+{% block sidebar %}
+    {{ parent() }}
+    <h2>EDITION</h2>
+
+    <ul>
+        {% for categorie in categories %}
+
+            <li>
+                <a href="{{ categorie.url }}">
+                    {{ categorie.titre }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+
+{% block main %}
+    <div class="container-fluid">
+        <h1>Les derniers articles</h1>
+
+        <div class="row">
+            <div class="col-sm-12 mx-auto">
+                {% for article in articles %}
+
+                    <h1><a href="{{ article.url }}">{{ article.titre }}</a></h1>
+
+                    <p><em>{{ article.categorie }}</em></p>
+
+                    <p class=""> {{ article.extrait }} </p>
+                    <a href="{{ article.url }}">Voir la suite...</a>
+                    <p class=""> {{ article.date }} </p>
+
+
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}

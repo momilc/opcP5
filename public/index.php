@@ -35,4 +35,3 @@ if ($page[0] == 'admin') {
 $controller = new $controller($twig);
 $controller->$action();
 
-

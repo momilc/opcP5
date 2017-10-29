@@ -2,7 +2,8 @@
 use Core\Config;
 use Core\Database\MysqlDatabase;
 
-class App extends Twig_Extension
+
+class App extends \Twig_Extension
 {
     public $title = 'Blog Mo Opcr P5';
     private $db_instance;
