@@ -1,12 +1,11 @@
-{% extends '/templates/with-sidebar.html.twig' %}
-{% import '/templates/form.html.twig' as form %}
+{% extends 'layout.html.twig' %}
+{% import 'form.html.twig' as form %}
 
 {% block head %}
-
     <title>Login</title>
 {% endblock %}
 
-
+{% block content %}
 {% block main %}
     <div class="container-fluid">
         <h1> {{ current_page }} </h1>
@@ -19,7 +18,6 @@
                     Identifiants incorrects
                 </div>
                 {% endif %}
-
                     <div class="form-group">
                         {{ form.input('username', 'Login', name, {class: 'col-md-6', type: 'text'}) }}
                         {{ form.input('password', 'Mot de passe', password, {class: 'col-md-6', type: 'password' }) }}
@@ -31,6 +29,7 @@
     </div>
 
 {% endblock %}
+{% endblock content %}
 
              {#      <label>Login: <input name="username" type="text"></label>
                        <label>Mot de passe: <input name="password" type="password"></label>

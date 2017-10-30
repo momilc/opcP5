@@ -22,7 +22,7 @@ class Controller extends Twig_Extension {
 
     protected function forbidden() {
         header('HTTP/1.0 403 Forbiden');
-        die('Page introuvable');
+        die('Accès Interdit');
     }
 
     protected static function notFound(){

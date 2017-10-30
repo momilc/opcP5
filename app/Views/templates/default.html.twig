@@ -7,7 +7,6 @@
     <meta name="author" content="">
     <link rel="icon" href="../../opcP5/public/styles/bootstrap-4/favicon.ico">
 
-    {% block head %}{% endblock %}
 
     <!-- Bootstrap core CSS -->
     <link href="../../opcP5/public/styles/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +23,16 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
+                <a class="navbar-brand" href="#">LSM OPCR P5</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item {{ activeClass('index')}}">
                         <a class="nav-link" href="index.php?p=posts.index">Accueil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item {{ activeClass('contact')}}">
                         <a class="nav-link" href="index.php?p=contact.index">Contact</a>
+                    </li>
+                    <li class="nav-item {{ activeClass('admin')}}">
+                        <a class="nav-link" href="index.php?p=admin.posts.index">Admin</a>
                     </li>
                     <li class="nav-item {{ activeClass('login')}}">
                         <a class="nav-link" href="index.php?p=users.login">Connexion</a>
@@ -47,9 +49,9 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1 class="display-3">Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h1 class="display-3">Blog en construction</h1>
+        <p>Ici se conçoit mon premier blog. Something very unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus &raquo;</a></p>
     </div>
 </div>
 
@@ -57,14 +59,14 @@
 <div class="container">
     <!-- Example row of columns -->
 
-    {% block content %}
-    {% endblock %}
+
+    {% block content %}{% endblock %}
 
 
     <hr>
 
     <footer>
-        <p>&copy; Company 2017</p>
+        <p>&copy; LSM OPCR P5 Company 2017</p>
     </footer>
 </div> <!-- /container -->
 

@@ -10,12 +10,12 @@ class PostsController extends AppController
     public function __construct(\twig_Environment $twig)
     {
         parent::__construct($twig);
-        return $this->loadModel('Post');
+        $this->loadModel('Post');
     }
 
     public function index() {
         $posts = $this->Post->all();
-        return $this->render('admin.posts.index', compact('posts'));
+        echo $this->render( 'admin.posts.index.html.twig', ['posts' => $posts]);
     }
 
     public function add() {
@@ -27,13 +27,13 @@ class PostsController extends AppController
             ]);
 
             if($result) {
-                return $this->index();
+                echo $this->index();
             }
         }
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($_POST);
-        return $this->render('admin.posts.edit', compact('categories', 'form'));
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
     }
 
     public function edit(){
@@ -44,7 +44,7 @@ class PostsController extends AppController
                'category_id' => $_POST['category_id'],
             ]);
             if($result){
-                return $this->index();
+                echo $this->index();
             }
         }
 
@@ -52,15 +52,17 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        return $this->render('admin.posts.edit', compact('categories', 'form'));
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
 
     }
 
     public function delete() {
         if (!empty($_POST)) {
             $result = $this->Post->delete($_POST['id']);
-            return $this->index();
+            if($result){
+                echo $this->index();
+            }
         }
-        return $this->render('admin.categories.index');
+        echo $this->render('admin.posts.index.html.twig');
     }
 }

@@ -15,7 +15,7 @@ class CategoriesController extends AppController
 
     public function index(){
         $items = $this->Category->all();
-        return $this->render('admin.categories.index', compact('items'));
+        echo $this->render('admin.categories.index.html.twig', ['item' => $items]);
     }
 
     public function add() {
@@ -23,31 +23,38 @@ class CategoriesController extends AppController
             $result = $this->Category->create([
                'titre' => $_POST['titre']
             ]);
-                return $this->index();
+            if($result){
+                echo $this->index();
+            }
         }
         $form = new BootstrapForm($_POST);
-        return $this->render('admin.categories.edit', compact('form'));
+        echo $this->render('categories.edit.html.twig', ['form' => $form]);
     }
 
     public function edit() {
         if (!empty($_POST)) {
-            $result = $this->Category->update([
+            $result = $this->Category->update($_GET['id'],[
                'titre' => $_POST['titre']
             ]);
-                return $this->index();
+            if($result){
+                echo $this->index();
+            }
         }
 
         $category = $this->Category->find($_GET['id']);
         $form = new BootstrapForm($category);
-       return $this->render('admin.categories.edit', compact('form'));
+        echo $this->render('categories.edit.html.twig', ['form' => $form]);
     }
 
     public function delete() {
         if (!empty($_POST)) {
             $result = $this->Category->delete($_POST['id']);
 
-                return $this->index();
+            if($result){
+                echo $this->index();
+            }
         }
-        return $this->render('admin.categories.index');
+
+        echo $this->render('admin.categories.index.html.twig');
     }
 }

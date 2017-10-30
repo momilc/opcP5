@@ -4,8 +4,17 @@ require ROOT. '/vendor/autoload.php';
 require ROOT. '/app/app.php';
 App::load();
 
-$loader = new Twig_Loader_Filesystem(ROOT. '/app/Views/posts/');
+$loader = new Twig_Loader_Filesystem([
+    'posts' => ROOT. '/app/views/posts/',
+    'categories' => ROOT. '/app/views/categories',
+    'contact' => ROOT. '/app/views/contact',
+    'users' => ROOT. '/app/views/users',
+    'templates' => ROOT. '/app/views/templates',
+    'admin.posts' => ROOT. '/app/views/admin/posts/',
+    'admin.categories' => ROOT. '/app/views/admin/categories/'
+    ]);
 $twig = new Twig_Environment($loader, [
+
     'cache' => false,
     'debug' => true
 ]);
