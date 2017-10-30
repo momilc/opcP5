@@ -13,6 +13,7 @@ $loader = new Twig_Loader_Filesystem([
     'admin.posts' => ROOT. '/app/views/admin/posts/',
     'admin.categories' => ROOT. '/app/views/admin/categories/'
     ]);
+
 $twig = new Twig_Environment($loader, [
 
     'cache' => false,
