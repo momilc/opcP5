@@ -33,7 +33,6 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($_POST);
-        var_dump($categories, $form);
         echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
     }
 
