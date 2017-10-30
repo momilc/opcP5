@@ -1,8 +1,8 @@
-{% extends '/with-sidebar.html.twig' %}
-
+{% extends 'with-sidebar.html.twig' %}
+{% import 'form.html.twig' as form %}
 
 {% block head %}
-    <title>Administration des articles</title>
+    <title>Accueil</title>
 {% endblock %}
 
 {% block sidebar %}
@@ -10,82 +10,68 @@
     <h2>Catégories</h2>
 
     <ul>
-        {% for categorie in categories %}
+        {% if categories %}
 
             <li>
-                <a href="{{ categorie.url }}">
-                    {{ categorie.titre }}
+                <a href="{{ categories.url }}">
+                    {{ categories.titre }}
                 </a>
             </li>
-        {% endfor %}
+        {% endif %}
     </ul>
 
 {% endblock %}
 
 {% block main %}
-    <div class="container-fluid">
-        <h1>Les derniers articles</h1>
-
-<div class="row">
-    <div class="col-sm-12 mx-auto">
-       {% for article in articles %}
-
-        <h1><a href="{{ article.url }}">{{ article.titre }}</a></h1>
-
-        <p><em>{{ article.categorie }}</em></p>
-
-        <p class=""> {{ article.extrait }} </p>
-           <a href="{{ article.url }}">Voir la suite...</a>
-        <p class=""> {{ article.date }} </p>
+    <div class="container-fluid jumbotron">
 
 
-        {% endfor %}
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Administrer les catégories</h2>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="?p=admin.categories.add" class="btn btn-success">Ajouter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 mx-auto">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Titre</td>
+                        <td>Actions</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    {% for item in items %}
+                        <tr>
+                            <td>{{ item.id }}</td>
+                            <td>{{ item.titre }}</td>
+                            <td>
+                                <a class="btn btn-primary" href="?p=admin.categories.edit&id={{item.id}}">Editer</a>
+                                <form action="?p=admin.categories.delete" method="post" style="display:inline">
+                                    <input type="hidden" name="id" value="{{item.id}}">
+                                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                                </form>
+                            </td>
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
     </div>
-
-</div>
-    </div>
-
-
-
-
-<div class="row">
-    <div class="col-md-8">
-        <h1 class="jumbotron">Administrer les articles</h1>
-    </div>
-    <div class="col-md-4">
-        <h1 class="jumbotron">
-            <p>
-                <a href="?p=admin.posts.add" class="btn btn-success">Ajouter</a>
-            </p>
-        </h1>
-    </div>
-</div>
-
-<table class="table">
-    <thead>
-    <tr>
-        <td>ID</td>
-        <td>Titre</td>
-        <td>Actions</td>
-    </tr>
-    </thead>
-    <tbody>
-
-    {% for posts in post %}
-    <tr>
-        <td>{{ post.id }}</td>
-        <td>{{ post.titre }}</td>
-        <td>
-            <a class="btn btn-primary" href="?p=admin.posts.edit&id={{ post.id }}">Editer</a>
-            <form action="?p=admin.posts.delete" method="post" style="display:inline">
-                <input type="hidden" name="id" value="{{ post.id }}">
-                <button type="submit" class="btn btn-danger">Supprimer</button>
-            </form>
-        </td>
-
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
 
 {% endblock %}
+
+
+
+

@@ -22,7 +22,7 @@ class Controller extends Twig_Extension {
 
     protected function forbidden() {
         header('HTTP/1.0 403 Forbiden');
-        echo $this->render('login.html.twig');
+        die('Accès Interdit. Veuillez vous connecter!');
     }
 
     protected static function notFound(){

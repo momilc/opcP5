@@ -1,6 +1,8 @@
 <?php
 define('ROOT', dirname(__DIR__));
-
+require ROOT. '/vendor/autoload.php';
+require ROOT. '/app/app.php';
+App::load();
 
 if (isset($_GET['p'])) {
     $page = $_GET['p'];

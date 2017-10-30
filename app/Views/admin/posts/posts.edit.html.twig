@@ -1,47 +1,45 @@
-{% extends '/with-sidebar.html.twig' %}
+{% extends 'with-sidebar.html.twig' %}
+{% import 'form.html.twig' as form %}
 
 {% block head %}
-    <title>Accueil</title>
+    <title>Edition</title>
 {% endblock %}
 
-{% block sidebar %}
-    {{ parent() }}
-    <h2>EDITION</h2>
+{% block body %}
+    {% block sidebar %}
+        {{ parent() }}
+        <h2>Edition Catégories</h2>
 
-    <ul>
-        {% for categorie in categories %}
+        <ul>
+            {% for categorie in categories %}
 
-            <li>
-                <a href="{{ categorie.url }}">
-                    {{ categorie.titre }}
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+                <li>
+                    <a href="{{ categorie.url }}">
+                        {{ categorie.titre }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
 
-{% endblock %}
+    {% endblock %}
 
-{% block main %}
-    <div class="container-fluid">
-        <h1>Les derniers articles</h1>
+    {% block content %}
+        <div class="container-fluid">
+            <h1>Ajouter articles</h1>
 
-        <div class="row">
-            <div class="col-sm-12 mx-auto">
-                {% for article in articles %}
+            <div class="row">
+                <div class="col-md-8 mx-auto">
 
-                    <h1><a href="{{ article.url }}">{{ article.titre }}</a></h1>
+                    <form method="post">
+                        {{ form.input('titre', 'Titre de l\'article', name, {class: 'col-md-6', type: 'text'}) }}
+                        {{ form.input('conetenu', 'Contenu de l\'article', name, {class: 'col-md-6', type: 'textarea'}) }}
+                        {{ form.button('Sauvegarder', {class: 'col-md', type: 'submit'})}}
+                        {{ form.select('Category_id', 'Catégories', name, value)}}
+                    </form>
 
-                    <p><em>{{ article.categorie }}</em></p>
-
-                    <p class=""> {{ article.extrait }} </p>
-                    <a href="{{ article.url }}">Voir la suite...</a>
-                    <p class=""> {{ article.date }} </p>
-
-
-                {% endfor %}
             </div>
-
         </div>
-    </div>
 
-{% endblock %}
+
+    {% endblock %}
+{% endblock body %}

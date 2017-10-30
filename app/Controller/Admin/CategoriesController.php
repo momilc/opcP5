@@ -15,7 +15,7 @@ class CategoriesController extends AppController
 
     public function index(){
         $items = $this->Category->all();
-        echo $this->render('admin.categories.index.html.twig', ['item' => $items]);
+        echo $this->render('admin.categories.index.html.twig', ['items' => $items]);
     }
 
     public function add() {
@@ -43,7 +43,7 @@ class CategoriesController extends AppController
 
         $category = $this->Category->find($_GET['id']);
         $form = new BootstrapForm($category);
-        echo $this->render('categories.edit.html.twig', ['form' => $form]);
+        echo $this->render('categories.edit.html.twig', ['form' => $form, 'category' => $category]);
     }
 
     public function delete() {
