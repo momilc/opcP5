@@ -42,8 +42,9 @@ class CategoriesController extends AppController
         }
 
         $category = $this->Category->find($_GET['id']);
+
         $form = new BootstrapForm($category);
-        echo $this->render('categories.edit.html.twig', ['form' => $form, 'category' => $category]);
+        echo $this->render('categories.edit.html.twig', ['form' => $form]);
     }
 
     public function delete() {
