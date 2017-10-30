@@ -33,7 +33,7 @@
                     <form method="post">
                         {{ form.input('titre', 'Titre de l\'article', name, {class: 'col-md-6', type: 'text'}) }}
                         {{ form.input('contenu', 'Contenu de l\'article', name, {class: 'col-md-6', type: 'textarea'}) }}
-                        {{ form.select('Category_id', 'Catégorie', name, categories, {value: 'categories.titre', type: 'select'}) }}
+                        {{ form.select('Category_id', 'Catégorie', name, {value: categories.titre, type: 'select'}) }}
                         {{ form.button('Sauvegarder', {class: 'col-md', type: 'submit'})}}
                     </form>
 

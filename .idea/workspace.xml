@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/templates/form.html.twig" afterPath="$PROJECT_DIR$/app/Views/templates/form.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +56,8 @@
       <file leaf-file-name="posts.edit.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="37" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -451,7 +447,7 @@
       <workItem from="1509241840436" duration="844000" />
       <workItem from="1509279475677" duration="21512000" />
       <workItem from="1509319233113" duration="6842000" />
-      <workItem from="1509355195991" duration="20550000" />
+      <workItem from="1509355195991" duration="20859000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -600,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509365955177</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Problem de select avec twig ?&#10;voir dans posts.edit.html.twig">
+      <created>1509377451897</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1509377451897</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327349000" />
+    <option name="totallyTimeSpent" value="327658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -678,7 +681,8 @@
     <MESSAGE value="Twig Paths, Twig Configuration" />
     <MESSAGE value="Force to login when page is forbidden" />
     <MESSAGE value="admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin" />
+    <MESSAGE value="Problem de select avec twig ?&#10;voir dans posts.edit.html.twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem de select avec twig ?&#10;voir dans posts.edit.html.twig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="37" selection-end-column="27" />
           <folding />
         </state>
       </provider>
