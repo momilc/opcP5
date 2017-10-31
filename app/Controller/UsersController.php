@@ -19,8 +19,8 @@ class UsersController extends AppController
             }
 
         }
-        $forms = new BootstrapForm($_POST);
-        echo $this->render('login.html.twig', ['forms'=> $forms, 'errors'=> $errors]);
+        $form = new BootstrapForm($_POST);
+        echo $this->render('login.html.twig', ['form'=> $form, 'errors'=> $errors]);
 
     }
 

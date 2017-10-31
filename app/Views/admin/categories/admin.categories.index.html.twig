@@ -1,52 +1,39 @@
-{% extends 'with-sidebar.html.twig' %}
+{% extends 'layout.html.twig' %}
 {% import 'form.html.twig' as form %}
 
 {% block head %}
     <title>Accueil</title>
 {% endblock %}
 
-{% block sidebar %}
-    {{ parent() }}
-    <h2>Catégories</h2>
 
-    <ul>
-        {% if categories %}
 
-            <li>
-                <a href="{{ categories.url }}">
-                    {{ categories.titre }}
-                </a>
-            </li>
-        {% endif %}
-    </ul>
+{% block content %}
 
-{% endblock %}
-
-{% block main %}
-    <div class="container-fluid jumbotron">
 
 
         <div class="row">
-            <div class="col-md-6">
-                <h2>Les catégories</h2>
+            <div class="col-md-12">
+                <h1 class="display-4 text-center text-uppercase font-weight-bold">Catégories</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-10">
                 <div>
-                    <a href="?p=admin.categories.add" class="btn btn-success">Ajouter</a>
+                    <a href="?p=admin.categories.add" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Ajouter</a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 text-right">
                 <div>
-                    <a href="?p=admin.posts.index" class="btn btn-primary">Les Articles</a>
+                    <a href="?p=admin.posts.index" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Articles</a>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-12 mx-auto">
-                <table class="table">
+    <br/>
+
+        <div class="row display-4">
+            <div class="col-md-12 mx-auto">
+                <table class="table table-light">
                     <thead>
-                    <tr>
+                    <tr class="font-weight-bold">
                         <td>ID</td>
                         <td>Titre</td>
                         <td>Actions</td>
@@ -57,12 +44,16 @@
                     {% for item in items %}
                         <tr>
                             <td>{{ item.id }}</td>
-                            <td>{{ item.titre }}</td>
                             <td>
-                                <a class="btn btn-primary" href="?p=admin.categories.edit&id={{item.id}}">Editer</a>
+                                <a href="{{ item.url }}">
+                                    {{ item.titre }}
+                                </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-outline-dark" href="?p=admin.categories.edit&id={{item.id}}">Editer</a>
                                 <form action="?p=admin.categories.delete" method="post" style="display:inline">
                                     <input type="hidden" name="id" value="{{item.id}}">
-                                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                                    <button type="submit" class="btn btn-outline-danger">Supprimer</button>
                                 </form>
                             </td>
 
@@ -73,7 +64,7 @@
             </div>
 
         </div>
-    </div>
+
 
 {% endblock %}
 

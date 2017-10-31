@@ -3,13 +3,12 @@
 {% block content %}
 
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-10">
             {% block main %} {% endblock %}
         </div>
-        <div class="col-md-4">
-            {% block sidebar %} <h1>Ma sidebar</h1>
-                <h4>Sidebar Parent</h4>
-                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+        <div class="col-md-2 text-uppercase list-group-item-dark">
+            <br/>
+            {% block sidebar %}
             {% endblock %}
         </div>
     </div>

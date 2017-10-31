@@ -1,4 +1,4 @@
-{% extends 'with-sidebar.html.twig' %}
+{% extends 'layout.html.twig' %}
 {% import 'form.html.twig' as form %}
 
 {% block head %}
@@ -6,22 +6,7 @@
 {% endblock %}
 
 {% block body %}
-    {% block sidebar %}
-        {{ parent() }}
-        <h2>Edition Catégories</h2>
 
-        <ul>
-            {% for categorie in categories %}
-
-                <li>
-                    <a href="{{ categorie.url }}">
-                        {{ categorie.titre }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-
-    {% endblock %}
 
     {% block content %}
         <div class="container-fluid">
@@ -29,10 +14,11 @@
 
         <div class="row">
             <div class="col-md-8 mx-auto">
-
                 <form method="post">
+                    {% for categorie in category %}
                     {{ form.input('titre', 'Titre de la catégorie', name, {class: 'col-md-6', type: 'text'}) }}
                     {{ form.button('Sauvegarder', {class: 'col-md', type: 'submit'})}}
+                    {% endfor %}
                 </form>
 
             </div>

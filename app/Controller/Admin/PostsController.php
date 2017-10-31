@@ -15,7 +15,7 @@ class PostsController extends AppController
 
     public function index() {
         $posts = $this->Post->all();
-        echo $this->render( 'admin.posts.index.html.twig', ['posts' => $posts]);
+        echo $this->render( 'admin.posts.index.html.twig', ['articles' => $posts]);
     }
 
     public function add() {
@@ -44,7 +44,7 @@ class PostsController extends AppController
                'category_id' => $_POST['category_id'],
             ]);
             if($result){
-                echo $this->index();
+                return $this->index();
             }
         }
 
@@ -52,7 +52,7 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form, 'article' => $post]);
 
     }
 
@@ -63,6 +63,5 @@ class PostsController extends AppController
                 echo $this->index();
             }
         }
-        echo $this->render('admin.posts.index.html.twig');
     }
 }

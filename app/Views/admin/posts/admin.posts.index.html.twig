@@ -1,51 +1,38 @@
-{% extends 'with-sidebar.html.twig' %}
+{% extends 'layout.html.twig' %}
 {% block head %}
     <title>Accueil</title>
 {% endblock %}
 
-{% block sidebar %}
-    {{ parent() }}
-    <h2>Catégories</h2>
 
-    <ul>
-        {% if categories %}
 
-            <li>
-                <a href="{{ categories.url }}">
-                    {{ categories.titre }}
-                </a>
-            </li>
-        {% endif %}
-    </ul>
-
-{% endblock %}
-
-{% block main %}
-    <div class="container-fluid jumbotron">
+{% block content %}
 
 
         <div class="row">
-            <div class="col-md-6">
-                <h2>Articles</h2>
+            <div class="col-md-12">
+                <h1 class="display-4 text-center text-uppercase font-weight-bold">Articles</h1>
             </div>
-            <div class="col-md-3">
+
+            <div class="col-md-10">
                 <div>
-                        <a href="?p=admin.posts.add" class="btn btn-success">Ajouter</a>
+                        <a href="?p=admin.posts.add" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Ajouter</a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 text-right">
                 <div>
-                    <a href="?p=admin.categories.index" class="btn btn-primary">Les Catégories</a>
+                    <a href="?p=admin.categories.index" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Catégories</a>
                 </div>
             </div>
 
         </div>
 
-        <div class="row">
-            <div class="col-sm-12 mx-auto">
-                <table class="table">
+        <br/>
+
+        <div class="row display-4">
+            <div class="col-md-12 mx-auto">
+                <table class="table table-light">
                     <thead>
-                    <tr>
+                    <tr class="font-weight-bold">
                         <td>ID</td>
                         <td>Titre</td>
                         <td>Actions</td>
@@ -53,15 +40,18 @@
                     </thead>
                     <tbody>
 
-                    {% for post in posts %}
+                    {% for article in articles %}
                         <tr>
-                            <td>{{ post.id }}</td>
-                            <td>{{ post.titre }}</td>
+                            <td>{{ article.id }}</td>
                             <td>
-                                <a class="btn btn-primary" href="?p=admin.posts.edit&id={{post.id}}">Editer</a>
+                            <a href="{{ article.url }}">
+                                {{ article.titre }}
+                            </a></td>
+                            <td>
+                                <a class="btn btn-outline-dark" href="?p=admin.posts.edit&id={{article.id}}">Editer</a>
                                 <form action="?p=admin.posts.delete" method="post" style="display:inline">
-                                  <input type="hidden" name="id" value="{{post.id}}">
-                                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                                  <input type="hidden" name="id" value="{{article.id}}">
+                                    <button type="submit" class="btn btn-outline-danger">Supprimer</button>
                                 </form>
                             </td>
 
@@ -72,7 +62,6 @@
             </div>
 
         </div>
-    </div>
 
 {% endblock %}
 

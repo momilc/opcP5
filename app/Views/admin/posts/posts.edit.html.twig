@@ -1,4 +1,4 @@
-{% extends 'with-sidebar.html.twig' %}
+{% extends 'layout.html.twig' %}
 {% import 'form.html.twig' as form %}
 
 {% block head %}
@@ -11,14 +11,15 @@
         <h2>Edition Catégories</h2>
 
         <ul>
-            {% for categorie in categories %}
+
+            {% if categories %}
 
                 <li>
-                    <a href="{{ categorie.url }}">
-                        {{ categorie.titre }}
+                    <a href="{{ categories.url }}">
+                        {{ categories.titre }}
                     </a>
                 </li>
-            {% endfor %}
+            {% endif %}
         </ul>
 
     {% endblock %}
@@ -35,10 +36,10 @@
                         {{ form.input('contenu', 'Contenu de l\'article', name, {class: 'col-md-12', type: 'textarea'}) }}
                         <div class="col-md-12 mx-auto">
                         <label class="form-control-label">Catégories
-                            <select id="select" class="col-md-12" name="category_id">
+                            <select id="select" class="form-control" name="category_id">
                                 {% for category_id, categorie in categories %}
                                 <option>
-                                {{ categorie| e }}
+                                {{ categorie }}
                                 </option>
                                 {% endfor %}
                             </select>

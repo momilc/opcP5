@@ -37,28 +37,28 @@ class BootstrapForm extends Form {
       } else {
           $input = '<input type="' . $type . '" name="'. $name .'" value = "'.$this->getValue($name).'" class= "form-control">';
       }
-      return $this->surround($label, $input);
+      echo $this->surround($label, $input);
     }
 
     public function select($name, $label, $options) {
-        $label = '<label>' . $label . '</label>';
-        $input = '<select class="form-control" name="'.$name.'">';
-        foreach ($options as $k => $v){
+        $label = '<label>' .$label . '</label>';
+        $input = '<select class="form-control" name="'.$name. '">';
+        foreach ($options as $k => $v) {
             $attributes = '';
             if($k == $this->getValue($name)) {
                 $attributes = ' selected';
             }
             $input .="<option value='$k' $attributes>$v</option>";
         }
-        $input .='</select>';
-        return $this->surround($label, $input);
+        $input .= '</select>';
+        echo $this->surround($label, $input);
     }
 
      /**
       * @return string
       */
      public function submit(){
-         return $this->input('<button type="submit" class="btn btn-primary">Envoyer</button>', false);
+         echo $this->input('<button type="submit" class="btn btn-primary">Envoyer</button>', null,$_POST);
      }
 
 

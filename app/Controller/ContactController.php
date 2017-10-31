@@ -9,12 +9,12 @@ class ContactController extends AppController {
     private $form;
 
     public function contact() {
-        $forms = $this->form;
-        return $forms;
+        $form = $this->form;
+        return $form;
     }
 
     public function index()  {
-        $forms = $this->form;
-        echo $this->render('contact.html.twig',  ['forms' => $forms, 'name' => 'Marc', 'email' => 'demo@demo.com']);
+        $form = $this->form;
+        echo $this->render('contact.html.twig',  ['form' => $form, 'name' => 'Marc', 'email' => 'demo@demo.com']);
     }
 }

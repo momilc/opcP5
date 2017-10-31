@@ -8,10 +8,12 @@
 {% block content %}
 {% block main %}
     <div class="container-fluid">
-        <h1>Connexion</h1>
-
-        <div class="row">
-            <div class="col-md-8">
+        <div class="row-fluid">
+            <div class="col-md-12">
+                 <h1 class="font-weight-bold text-center text-uppercase display-4">Connexion</h1>
+            </div>
+        <div class="row-fluid">
+            <div class="col-md-12 text-center">
                 <form method="post">
                 {% if errors %}
                 <div class="alert alert-danger">
@@ -19,15 +21,17 @@
                 </div>
                 {% endif %}
                     <div class="form-group">
-                        {{ form.input('username', 'Login', name, {class: 'col-md-6', type: 'text'}) }}
-                        {{ form.input('password', 'Mot de passe', password, {class: 'col-md-6', type: 'password' }) }}
-                        {{ form.button('Envoyer',submit, {class: 'col-md', type: 'submit'}) }}
+                        {{ form.input('username', 'Login', name, {type: 'text'}) }}
+                        {{ form.input('password', 'Mot de passe', password, {type: 'password' }) }}
+                        <div class="col-md-12">
+                        {{ form.button('Envoyer', {type: 'submit'}) }}
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
+    </div>
 {% endblock %}
 {% endblock content %}
 
