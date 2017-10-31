@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/templates/form.html.twig" afterPath="$PROJECT_DIR$/app/Views/templates/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" afterPath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,71 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts.edit.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
+      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controller/Admin/AppController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/templates/form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.posts.index.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/Admin/PostsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BootstrapForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/HTML/BootstrapForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.categories.index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -147,7 +86,6 @@
         <option value="$PROJECT_DIR$/core/Table/Table.php" />
         <option value="$PROJECT_DIR$/app/Views/posts/posts.index.html.twig" />
         <option value="$PROJECT_DIR$/app/Entity/PostEntity.php" />
-        <option value="$PROJECT_DIR$/app/Entity/CategoryEntity.php" />
         <option value="$PROJECT_DIR$/app/Views/posts/category.html.twig" />
         <option value="$PROJECT_DIR$/core/HTML/Form.php" />
         <option value="$PROJECT_DIR$/app/Views/posts/form.html.twig" />
@@ -185,14 +123,15 @@
         <option value="$PROJECT_DIR$/app/Views/posts/show.html.twig" />
         <option value="$PROJECT_DIR$/core/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/app/Views/users/login.html.twig" />
-        <option value="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/templates/form.html.twig" />
         <option value="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
-        <option value="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/templates/form.html.twig" />
+        <option value="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
+        <option value="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
+        <option value="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
+        <option value="$PROJECT_DIR$/app/Entity/CategoryEntity.php" />
       </list>
     </option>
   </component>
@@ -212,7 +151,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="691" />
-    <option name="height" value="775" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -306,6 +245,18 @@
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Table" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -394,7 +345,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../opcr/Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="file&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/vendor/twig/twig/lib/Twig/Loader/Filesystem.php&#10;register&#9;null&#9;null" />
   </component>
@@ -470,7 +421,7 @@
       <workItem from="1509241840436" duration="844000" />
       <workItem from="1509279475677" duration="21512000" />
       <workItem from="1509319233113" duration="6842000" />
-      <workItem from="1509355195991" duration="21530000" />
+      <workItem from="1509355195991" duration="31510000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -633,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509377717153</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Ajout liens vers les catégories et vers les articles">
+      <created>1509378390468</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1509378390468</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328329000" />
+    <option name="totallyTimeSpent" value="338309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -713,7 +671,8 @@
     <MESSAGE value="admin" />
     <MESSAGE value="Problem de select avec twig ?&#10;voir dans posts.edit.html.twig" />
     <MESSAGE value="Ajout liens vers les catégories et vers les articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout liens vers les catégories et vers les articles" />
+    <MESSAGE value="Suite administration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suite administration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,46 +770,6 @@
         <state relative-caret-position="85">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Entity/CategoryEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Entity/PostEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Table/UserTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Table/PostTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508926907334" expanded="true" signature="348:564" ph="SELECT artic... articles" />
-            <marker date="1508926907334" expanded="true" signature="797:1052" ph="SELECT artic... articles" />
-            <marker date="1508926907334" expanded="true" signature="1309:1519" ph="SELECT artic... articles" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Table/CategoryTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -967,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -987,14 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/HTML/BootstrapForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1015,18 +918,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/templates/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/HTML/BootstrapForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1041,24 +960,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/Admin/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="260">
+          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Table/CategoryTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Table/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Entity/PostEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Entity/CategoryEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Table/PostTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508926907334" expanded="true" signature="348:564" ph="SELECT artic... articles" />
+            <marker date="1508926907334" expanded="true" signature="797:1052" ph="SELECT artic... articles" />
+            <marker date="1508926907334" expanded="true" signature="1309:1519" ph="SELECT artic... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>

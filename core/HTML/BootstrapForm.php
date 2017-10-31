@@ -3,17 +3,20 @@ namespace Core\HTML;
 use \Twig_Extension;
 
 class BootstrapForm extends Form {
+
+
+  /*  public function __construct(array $data = array())
+    {
+        parent::__construct($data);
+        $this->data = $data;
+
+    }*/
+
     /***
      * @param $html string Code HTML à entourer
      * @param $label
      * @return string
      */
-    public function __construct(array $data = array())
-    {
-        parent::__construct($data);
-        $this->data = $data;
-
-    }
 
     protected function surround($html, $label){
         return "<div class=\"form-group\">{$html} {$label}</div>";

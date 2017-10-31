@@ -13,8 +13,23 @@
 {% endmacro %}
 
 {% macro select(name, values, value, attributes) %}
-    <label for="{{ name }}">{{ label }}</label>
-    <select type="select" class="form-control" id="{{ name }}" name="{{ name }}">{{ value }}</select>
+    <div class="form-group {{ options.class }}">
+    <label for="{{ name }}">{{ label }}
+        <select name="{{ name }}">
+    {% for attr, value in attributes %}
+        {{ attr }}="{{ value }}"
+    {% endfor %}
+    {% if not attributes.id is defined %}
+        id="{{ name }}"
+    {% endif %}>
+    {% for key, name in values %}
+        <option value="{{ key }}"{% if value == key %} selected="selected"
+                {% endif %}>
+            {{ name }}
+        </option>
+    {% endfor %}
+    </select></label>
+    </div>
 {% endmacro %}
 
 {% macro button (label, options = []) %}
