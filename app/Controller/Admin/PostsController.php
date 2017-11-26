@@ -44,7 +44,7 @@ class PostsController extends AppController
                'category_id' => $_POST['category_id'],
             ]);
             if($result){
-                return $this->index();
+                echo $this->index();
             }
         }
 
@@ -52,8 +52,7 @@ class PostsController extends AppController
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form, 'article' => $post]);
-
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
     }
 
     public function delete() {

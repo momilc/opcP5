@@ -17,7 +17,19 @@ class Controller extends Twig_Extension {
     }
 
     protected  function render($view, $variables = []) {
-        return $this->twig->render($view, $variables);
+        ob_start();
+        extract($variables); //$variables permet de chargers $posts et $categories de la classe Controller
+
+            switch($view){
+            case 'posts';
+                echo require ($this->viewPath . str_replace('.', '/', $view). str_replace('.', '/', '/posts'). str_replace('', '.', $view));
+                break;
+            case 'categories';
+                echo require ($this->viewPath . str_replace('.', '/', $view). str_replace('.', '/', '/categories/'). str_replace('', '.', $view));
+                break;
+            }
+        $content = ob_get_clean();
+        echo $this->twig->render($view, $variables);
     }
 
     protected function forbidden() {

@@ -15,7 +15,7 @@ class Table extends Twig_Extension
     protected $table;
     protected $db;
 
-    public function __construct(MysqlDatabase $db)
+    public function __construct(Database $db)
     {
         $this->db = $db;
         if (is_null($this->table)) {
@@ -51,7 +51,7 @@ class Table extends Twig_Extension
         }
         $attributes[] = $id;
         $sql_parts = implode(',', $sql_parts);
-        return $this->query("UPDATE {$this->table} SET $sql_parts WHERE id = ?", $attributes, true);
+        echo $this->query("UPDATE {$this->table} SET $sql_parts WHERE id = ?", $attributes, true);
     }
 
     public function delete($id) {

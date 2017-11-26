@@ -4,7 +4,7 @@ namespace Core\Database;
 use \PDO;
 
 
-class MysqlDatabase extends \Twig_Extension {
+class MysqlDatabase extends Database {
 
     private $db_name;
     private $db_user;
@@ -12,7 +12,7 @@ class MysqlDatabase extends \Twig_Extension {
     private $db_host;
     private $pdo;
 
-    public function __construct($db_name, $db_user = 'root', $db_pass = 'hgt£U!52V#§', $db_host = 'localhost')
+    public function __construct($db_name, $db_user = 'root', $db_pass = 'root1234', $db_host = 'localhost')
     {
         $this->db_name = $db_name;
         $this->db_user = $db_user;
@@ -24,7 +24,7 @@ class MysqlDatabase extends \Twig_Extension {
     private function getPDO() {
         if ($this->pdo === null) {
 
-            $pdo = new PDO('mysql:dbname=mon_blog;host=localhost', 'root', 'hgt£U!52V#§');
+            $pdo = new PDO('mysql:dbname=monblog;host=localhost', 'root', 'root1234');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
             $this->pdo = $pdo;

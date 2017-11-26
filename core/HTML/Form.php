@@ -27,7 +27,7 @@ class Form extends Twig_Extension {
      * @return string
      */
     protected function surround($html, $label) {
-        return "<{$this->surround}>{$html}{$label}</{$this->surround}>";
+        return "<{$this->surround}>{$html}</{$this->surround}>";
     }
 
     /***
@@ -39,7 +39,7 @@ class Form extends Twig_Extension {
         if(is_object($this->data)) {
             return $this->data->$index;
         }
-            return isset($this->data[$index]) ? $this->data[$index] : null;
+        return isset($this->data[$index]) ? $this->data[$index] : null;
     }
 
     /***
@@ -53,6 +53,7 @@ class Form extends Twig_Extension {
         $type = isset($label, $options['type']) ? $options['type'] : 'text';
         return $this->surround('<input type="'.$type.'" name="'.$name.'" value"'.$this->getValue($name).'">', '<label>'.$label.'</label>');
     }
+
 
     /***
      *@return string

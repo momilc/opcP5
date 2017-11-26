@@ -1,17 +1,17 @@
 <?php
 define('ROOT', dirname(__DIR__));
 require ROOT. '/vendor/autoload.php';
-require ROOT. '/app/app.php';
+require ROOT. '/app/App.php';
 App::load();
 
 $loader = new Twig_Loader_Filesystem([
-    'posts' => ROOT. '/app/views/posts/',
-    'categories' => ROOT. '/app/views/categories',
-    'contact' => ROOT. '/app/views/contact',
-    'users' => ROOT. '/app/views/users',
-    'templates' => ROOT. '/app/views/templates',
-    'admin.posts' => ROOT. '/app/views/admin/posts/',
-    'admin.categories' => ROOT. '/app/views/admin/categories/'
+    'posts' => ROOT. '/app/Views/posts/',
+    'categories' => ROOT. '/app/Views/categories',
+    'contact' => ROOT. '/app/Views/contact',
+    'users' => ROOT. '/app/Views/users',
+    'templates' => ROOT. '/app/Views/templates',
+    'admin.posts' => ROOT. '/app/Views/admin/posts/',
+    'admin.categories' => ROOT. '/app/Views/admin/categories/'
     ]);
 
 $twig = new Twig_Environment($loader, [
@@ -29,7 +29,7 @@ if(isset($_GET['p'])) {
 
 $twig->addExtension(new App());
 $twig->addExtension(new Twig_Extension_Debug());
-$twig->addExtension(new Twig_Extensions_extension_Text());
+$twig->addExtension(new Twig_Extensions_Extension_Text());
 $twig->addGlobal('current_page', $page);
 
 

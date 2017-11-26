@@ -13,7 +13,7 @@ class AppController extends App\Controller\AppController {
         parent::__construct($twig);
         //Auth
         $app = App::getInstance();
-        $auth = new DBAuth($app->getDb());
+        $auth = new DbAuth($app->getDb());
         if(!$auth->logged()){
             $this->forbidden();
         }

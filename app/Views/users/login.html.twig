@@ -1,11 +1,11 @@
 {% extends 'layout.html.twig' %}
-{% import 'form.html.twig' as form %}
+{#{% import 'form.html.twig' as form %}#}
 
 {% block head %}
     <title>Se connecter</title>
 {% endblock %}
 
-{% block content %}
+
 {% block main %}
     <div class="container-fluid">
         <div class="row-fluid">
@@ -21,10 +21,10 @@
                 </div>
                 {% endif %}
                     <div class="form-group">
-                        {{ form.input('username', 'Login', name, {type: 'text'}) }}
-                        {{ form.input('password', 'Mot de passe', password, {type: 'password' }) }}
+                        {{ form.input('username', 'Login', {type: 'text'}) | raw }}
+                        {{ form.input('password', 'Mot de passe', {type: 'password' }) | raw }}
                         <div class="col-md-12">
-                        {{ form.button('Envoyer', {type: 'submit'}) }}
+                        {{ form.submit('Envoyer', {class: 'col-md'}) | raw}}
                         </div>
                     </div>
                 </form>
@@ -33,7 +33,7 @@
     </div>
     </div>
 {% endblock %}
-{% endblock content %}
+
 
              {#      <label>Login: <input name="username" type="text"></label>
                        <label>Mot de passe: <input name="password" type="password"></label>

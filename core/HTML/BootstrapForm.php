@@ -1,16 +1,13 @@
 <?php
+
 namespace Core\HTML;
+
 use \Twig_Extension;
 
-class BootstrapForm extends Form {
+class BootstrapForm extends Form
+{
 
 
-  /*  public function __construct(array $data = array())
-    {
-        parent::__construct($data);
-        $this->data = $data;
-
-    }*/
 
     /***
      * @param $html string Code HTML à entourer
@@ -18,48 +15,56 @@ class BootstrapForm extends Form {
      * @return string
      */
 
-    protected function surround($html, $label){
+    protected function surround($html, $label)
+    {
         return "<div class=\"form-group\">{$html} {$label}</div>";
     }
 
     /***
-     *@param $name string
+     * @param $name string
      * @param $label
      * @param array $options
-     *@return string
+     * @return string
      */
 
-    public function input($name, $label, $options = []) {
-      $type = isset($options['type']) ? $options['type'] : 'text';
-      $label = '<label>' . $label . '</label>';
-      if($type === 'textarea') {
-          $input = '<textarea name="'. $name .'" class = "form-control">'.$this->getValue($name).'</textarea>';
-      } else {
-          $input = '<input type="' . $type . '" name="'. $name .'" value = "'.$this->getValue($name).'" class= "form-control">';
-      }
-      echo $this->surround($label, $input);
+    public function input($name, $label, $options = [])
+    {
+        $type = isset($options['type']) ? $options['type'] : 'text';
+        $label = '<label>' . $label . '</label>';
+        if ($type === 'textarea') {
+            $input = '<textarea name="' . $name . '" class = "form-control">' . $this->getValue($name) . '</textarea>';
+        } else {
+            $input = '<input type="' . $type . '" name="' . $name . '" value = "' . $this->getValue($name) . '" class= "form-control">';
+        }
+        return $this->surround($label, $input);
     }
 
-    public function select($name, $label, $options) {
-        $label = '<label>' .$label . '</label>';
-        $input = '<select class="form-control" name="'.$name. '">';
+    public function textarea($name, $label, $options = []) {
+        return $this->input($name, $label, array_merge($options, ['type'=>'textarea']));
+    }
+
+    public function select($name, $label, $options)
+    {
+        $label = '<label>' . $label . '</label>';
+        $input = '<select class="form-control" name="' . $name . '">';
         foreach ($options as $k => $v) {
             $attributes = '';
-            if($k == $this->getValue($name)) {
+            if ($k == $this->getValue($name)) {
                 $attributes = ' selected';
             }
-            $input .="<option value='$k' $attributes>$v</option>";
+            $input .= "<option value='$k' $attributes>$v</option>";
         }
         $input .= '</select>';
-        echo $this->surround($label, $input);
+        return $this->surround($label, $input);
     }
 
-     /**
-      * @return string
-      */
-     public function submit(){
-         echo $this->input('<button type="submit" class="btn btn-primary">Envoyer</button>', null,$_POST);
-     }
+    /**
+     * @return string
+     */
+    public function submit()
+    {
+        return $this->surround('<button type="submit" class="btn btn-primary">Envoyer</button>', null);
+    }
 
 
 }

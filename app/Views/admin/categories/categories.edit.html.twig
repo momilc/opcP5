@@ -1,8 +1,8 @@
 {% extends 'layout.html.twig' %}
-{% import 'form.html.twig' as form %}
+
 
 {% block head %}
-    <title>Edition</title>
+    <title>Edition - Catégories</title>
 {% endblock %}
 
 {% block body %}
@@ -10,15 +10,13 @@
 
     {% block content %}
         <div class="container-fluid">
-        <h1>Ajouter articles</h1>
+        <h1>Catégories</h1>
 
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <form method="post">
-                    {% for categorie in category %}
-                    {{ form.input('titre', 'Titre de la catégorie', name, {class: 'col-md-6', type: 'text'}) }}
-                    {{ form.button('Sauvegarder', {class: 'col-md', type: 'submit'})}}
-                    {% endfor %}
+                    {{ form.input('titre', 'Titre de la catégorie', {class: 'col-md-6', type: 'text'})| raw }}
+                    {{ form.submit('Sauvegarder', {class: 'col-md'}) | raw}}
                 </form>
 
             </div>

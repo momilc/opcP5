@@ -1,14 +1,14 @@
 {% extends 'layout.html.twig' %}
-{% import 'form.html.twig' as form %}
+
 
 {% block head %}
-    <title>Edition</title>
+    <title>Edition - Articles</title>
 {% endblock %}
 
 {% block body %}
     {% block sidebar %}
         {{ parent() }}
-        <h2>Edition Catégories</h2>
+        <h2>Articles</h2>
 
         <ul>
 
@@ -32,20 +32,21 @@
                 <div class="col-md-12 mx-auto">
 
                     <form method="post">
-                        {{ form.input('titre', 'Titre de l\'article', name, {class: 'col-md-12', type: 'text'}) }}
-                        {{ form.input('contenu', 'Contenu de l\'article', name, {class: 'col-md-12', type: 'textarea'}) }}
-                        <div class="col-md-12 mx-auto">
+
+                        {{ form.input('titre', 'Titre de l\'article', {class: 'col-md-12', type: 'text'}) | raw }}
+                        {{ form.textarea('contenu', 'Contenu de l\'article', {class: 'col-md-12'}) | raw }}
+
                         <label class="form-control-label">Catégories
                             <select id="select" class="form-control" name="category_id">
                                 {% for category_id, categorie in categories %}
-                                <option>
-                                {{ categorie }}
+                                <option value="{{ category_id }}">
+                                    {{ categorie }}
                                 </option>
                                 {% endfor %}
                             </select>
                         </label>
-                        </div>
-                        {{ form.button('Sauvegarder', {class: 'col-md', type: 'submit'})}}
+
+                        {{ form.submit('Sauvegarder', {class: 'col-md'}) | raw}}
                     </form>
 
                 </div>

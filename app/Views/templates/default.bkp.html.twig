@@ -37,19 +37,6 @@
                     <li class="nav-item {{ activeClass('login')}}">
                         <a class="nav-link" href="index.php?p=users.login">Connexion</a>
                     </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégories</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=2">Longboarding</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=4">Football</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=6">Dennis</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=8">Tom Tom</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=9">New Man</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=10">Master</a>
-                    <a class="dropdown-item" href="index.php?p=posts.category&id=13">New Man II</a>
-
-                </div>
-            </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -62,9 +49,8 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1 class="display-2">S.L.M</h1>
-        <p class="lead">Developpeur PHP/Symfony 2 & Analyste UML</p>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <h1 class="display-2">Blog en construction</h1>
+        <p>Ici se conçoit mon premier blog. Something very unique.</p>
         <p><a class="btn btn-outline-dark btn-lg" href="#" role="button">En savoir plus &raquo;</a></p>
     </div>
 </div>
@@ -72,10 +58,10 @@
 
 <div class="container-fluid jumbotron">
     <!-- Example row of columns -->
-    {% block main %}
-    {% endblock %}
-    {% block content %}
-    {% endblock content %}
+
+
+    {% block content %}{% endblock %}
+
 </div>
     <hr>
 <div class="container-fluid">
@@ -98,5 +84,3 @@
 <script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
-
-
