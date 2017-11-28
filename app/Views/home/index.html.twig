@@ -25,28 +25,30 @@
     <form id="form" name="mail" method="post" action="../../email.php">
     <div class="form-group fa-wpforms">
         <div class="input-group margin-bottom-sm">
-            <span class="input-group-addon"><i class="fa fa-user fa-fw">Nom:</i></span>
+            <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
             <input id="name" name="name" class="form-control" type="text" placeholder="Votre nom">
         </div>
         <div class="input-group">
-            <span class="input-group-addon"><i class="fa fa-user fa-fw">Prénom:</i></span>
+            <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
             <input id="firstname" name="firstname" class="form-control" type="text" placeholder="Votre prénom">
         </div>
         <div class="input-group">
-            <span class="input-group-addon"><i class="fa fa-mail fa-fw">Adresse E-mail:</i></span>
+            <span class="input-group-addon"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
             <input id="email" name="email" class="form-control" type="email" placeholder="Votre E-mail">
         </div>
         <div class="input-group">
-            <span class="input-group-addon"><i class="fa fa-key fa-fw">Objet :</i></span>
+            <span class="input-group-addon"><i class="fa fa-question-circle fa-fw" aria-hidden="true"></i></span>
             <input id="subject" name="subject" class="form-control" type="text" placeholder="Objet du message">
         </div>
         <div class="input-group">
-            <span class="input-group-addon"><i class="fa fa-key fa-fw">Message:</i></span>
+            <span class="input-group-addon"><i class="fa fa-comment fa-fw" aria-hidden="true"></i></span>
             <textarea id="message" name="message"  class="form-control" type="text" placeholder="Votre message"></textarea>
         </div>
         <br>
         <div class="input-group">
-                <input type="submit" name="submit" value="Envoyer">
+
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Envoyer</button>
+
         </div>
     </div>
     </form>

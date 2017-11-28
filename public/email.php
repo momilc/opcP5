@@ -28,13 +28,13 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 //Content
 	if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
 		//Keep it simple - don't use HTML
-		$mail->isHTML(false);
+		$mail->isHTML(true);
 		//Build a simple message body
 		$mail->Body = <<<EOT
 		{$_POST['message']}
 EOT;
 
-//		$mail->AltBody = strip_tags('message'); //Remove // in front of this if you set isHTML to true.
+ 		$mail->AltBody = strip_tags('message'); //Add // in front of this if you set isHTML to false.
 
 
 		//Send the message, check for errors
