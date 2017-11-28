@@ -7,10 +7,8 @@ App::load();
 $loader = new Twig_Loader_Filesystem([
     'home' => ROOT. '/app/Views/home/',
     'posts' => ROOT. '/app/Views/posts/',
-    'categories' => ROOT. '/app/Views/categories',
     'templates' => ROOT. '/app/Views/templates',
     'admin.posts' => ROOT. '/app/Views/admin/posts/',
-    'admin.categories' => ROOT. '/app/Views/admin/categories/'
     ]);
 
 $twig = new Twig_Environment($loader, [

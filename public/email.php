@@ -17,7 +17,7 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 	$mail->Host = 'ns3072249.fbox.fr';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
 	$mail->Username = 'm.sakho@momilc.com';                 // SMTP username
-	$mail->Password = 'oPZH.3mQ$O#4';                           // SMTP password
+	$mail->Password = '123456';                           // SMTP password
 	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 465;                                    // TCP port to connect to
 	//Recipients
@@ -48,3 +48,6 @@ EOT;
 		} else {
 		echo $msg = 'Adresse E-mail invalide, message ignoré.';
 		}
+
+$content = ob_get_clean();
+require ROOT. '/app/views/templates/default.html.twig';
