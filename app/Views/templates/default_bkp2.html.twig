@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="vendor/bootstrap/favicon.ico">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="vendor/bootstrap/dist/css/jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+    <div class="top-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+
+    <a class="navbar-brand" href="#"> <img src="../../images/my_logo_lsm_mini_78x68px.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+              <li class="nav-item {{ activeClass('index')}}">
+                        <a class="nav-link" href="index.php?p=home.index">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <a class="nav-link" href="index.php?p=posts.index">Articles <span class="sr-only">(current)</span></a>
+                    </li>
+            <li class="nav-item dropdown {{ activeClass('administration')}}">
+                <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administration</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="index.php?p=users.login">Connexion</a>
+                    <a class="dropdown-item" href="index.php?p=admin.posts.index">Articles</a>
+                </div>
+            </li>
+           {# <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégories</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=2">Longboarding</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=4">Football</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=6">Dennis</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=8">Tom Tom</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=9">New Man</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=10">Master</a>
+                    <a class="dropdown-item" href="index.php?p=posts.category&id=13">New Man II</a>
+
+                </div>
+            </li>#}
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+    </div>
+</div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+{% block header %}
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold">LOHORE SAKHO</h1>
+        <p class="lead">Developpeur PHP/Symfony & Analyste UML</p>
+        <p>Vous recherchez un développeur ? Je suis développeur d'applications & sites Internet en PHP7 / Symphony2 & Twig / HTML5 / Bootstrap 4/ CSS3 ! <br> Je suis également analyste UML</p>
+        <p><a class="btn btn-outline-dark btn-lg" href="#" role="button">En savoir plus &raquo;</a></p>
+    </div>
+</div>
+{% endblock header %}
+
+<div class="container jumbotron">
+    <!-- Example row of columns -->
+    {% block main %}
+    {% endblock %}
+    {% block content %}
+    {% endblock content %}
+</div>
+    <hr>
+<div class="container-fluid">
+    <div class="blog-footer">
+    <footer>
+        <p>&copy; LSM OPCR P5 Company 2017</p>
+    </footer>
+    </div>
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="bootstrap/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="bootstrap/assets/js/vendor/popper.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="vendor/bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,35 @@
+{% extends 'default.html.twig' %}
+{% import '/form.html.twig' as form %}
+
+{% block head %}
+    <title>Accueil</title>
+{% endblock %}
+
+{% block body %}
+
+{% block content %}
+
+    <h1 class="text-uppercase text-center font-weight-bold">Welcome</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius ipsum diam, sed lacinia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius ipsum diam, sed lacinia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius ipsum diam, sed laciniaLorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius ipsum diam, sed lacinia risus egestas non. Nulla ullamcorper vitae libero sit amet sodales. Etiam eget luctus nisl. Vivamus malesuada egestas mauris, ut vestibulum dui venenatis a. Aenean nibh massa, rhoncus id feugiat eget, egestas ac nibh. In quis gravida urna. Phasellus lacinia velit id nisi porttitor sagittis. Praesent in nulla aliquam, accumsan enim blandit, euismod nisi. Phasellus eget venenatis lorem. Aenean egestas sagittis purus, ut aliquam nisl. Nullam dictum vehicula aliquet. Ut sit amet ipsum in ligula lobortis hendrerit. Cras tincidunt dictum neque, id malesuada tellus. Morbi ullamcorper nulla nec dictum volutpat.
+        Phasellus fermentum leo ut neque feugiat, eu viverra ante consequat. Donec eget nunc mauris. Aenean eleifend hendrerit finibus. Sed enim diam, congue in enim id, fermentum viverra mauris. Maecenas scelerisque urna in arcu semper vestibulum. In cursus justo sed tempus tincidunt. Etiam vehicula sapien ut odio aliquam, id euismod elit volutpat. Nam eget mauris ac sem feugiat hendrerit sed rhoncus purus.
+    </p>
+
+
+        <h1 class="text-uppercase">Contactez-Moi</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius ipsum diam, sed lacinia risus egestas non. Nulla ullamcorper vitae libero sit amet sodales. Etiam eget luctus nisl. Vivamus malesuada egestas mauris, ut vestibulum dui venenatis a. Aenean nibh massa, rhoncus id feugiat eget, egestas ac nibh. In quis gravida urna. Phasellus lacinia velit id nisi porttitor sagittis. Praesent in nulla aliquam, accumsan enim blandit, euismod nisi. Phasellus eget venenatis lorem. Aenean egestas sagittis purus, ut aliquam nisl. Nullam dictum vehicula aliquet. Ut sit amet ipsum in ligula lobortis hendrerit. Cras tincidunt dictum neque, id malesuada tellus. Morbi ullamcorper nulla nec dictum volutpat.
+            Phasellus fermentum leo ut neque feugiat, eu viverra ante consequat. Donec eget nunc mauris. Aenean eleifend hendrerit finibus. Sed enim diam, congue in enim id, fermentum viverra mauris. Maecenas scelerisque urna in arcu semper vestibulum. In cursus justo sed tempus tincidunt. Etiam vehicula sapien ut odio aliquam, id euismod elit volutpat. Nam eget mauris ac sem feugiat hendrerit sed rhoncus purus.
+        </p>
+
+        <div class="form-group">
+            {{ form.input('name', 'Votre nom', name, {class: 'col-md-6'}) }}
+            {{ form.input('email', 'Votre email', email, {class: 'col-md-6', type: 'email' }) }}
+            {{ form.textarea('message', 'Votre message', message, {class: 'col-md-10'}) }}
+
+            {{ form.button('Envoyer', {class: 'col-md'}) }}
+        </div>
+
+
+{% endblock %}
+{% endblock body %}

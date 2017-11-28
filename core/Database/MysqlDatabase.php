@@ -24,7 +24,7 @@ class MysqlDatabase extends Database {
     private function getPDO() {
         if ($this->pdo === null) {
 
-            $pdo = new PDO('mysql:dbname=monblog;host=localhost', 'root', 'root1234');
+            $pdo = new PDO('mysql:dbname=mon_blog;host=localhost', 'root', 'hgt£U!52V#§');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
             $this->pdo = $pdo;

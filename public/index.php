@@ -5,6 +5,7 @@ require ROOT. '/app/App.php';
 App::load();
 
 $loader = new Twig_Loader_Filesystem([
+    'home' => ROOT. '/app/Views/home/',
     'posts' => ROOT. '/app/Views/posts/',
     'categories' => ROOT. '/app/Views/categories',
     'contact' => ROOT. '/app/Views/contact',

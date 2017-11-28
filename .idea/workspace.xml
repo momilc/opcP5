@@ -1,458 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="Working on linux now">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Views/templates/default.bkp.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/11acc068-7e47-4d65-9f50-53fa176069e4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.hound.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.houndignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.scss-lint.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/breakpoints.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/browser-bugs.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/browser-features.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/colors.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/core-team.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/grays.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/nav.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/showcase.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/theme-colors.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_data/translations.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/ads.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/callout-danger-async-methods.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/callout-warning-color-assistive-technologies.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/docs-navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/docs-sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/icons/bootstrap.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/icons/github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/icons/menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/icons/slack.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/icons/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/scripts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_includes/social.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_layouts/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_layouts/docs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_layouts/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_layouts/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_plugins/bugify.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_plugins/callout.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_plugins/example.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/_plugins/markdown-block.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/brand/bootstrap-outline.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/brand/bootstrap-punchout.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/brand/bootstrap-social-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/brand/bootstrap-social.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/brand/bootstrap-solid.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/css/docs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/css/docs.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/img/bootstrap-stack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/img/bootstrap-themes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/docs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/ie-emulation-modes-warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/src/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/vendor/anchor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/vendor/clipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/vendor/holder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/vendor/jquery-slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/js/vendor/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_ads.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_algolia.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_anchor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_brand.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_browser-bugs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_callouts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_clipboard-js.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_component-examples.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_examples.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_featured-sites.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_masthead.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_page-header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_responsive-tests.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_skiplink.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_syntax.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_team.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/assets/scss/docs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/.htmllintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/change-version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/gcp-key.json.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/lint-vars.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/postcss.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/stamp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/uglifyjs.config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/build/upload-preview.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/about/brand.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/about/history.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/about/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/about/team.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/about/translations.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/browser-bugs.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/alerts.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/badge.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/breadcrumb.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/button-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/buttons.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/card.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/carousel.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/collapse.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/dropdowns.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/forms.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/input-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/jumbotron.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/list-group.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/modal.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/navbar.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/navs.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/pagination.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/popovers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/progress.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/scrollspy.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/components/tooltips.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/code.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/figures.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/images.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/reboot.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/tables.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/content/typography.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/album/album.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/album/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/blog/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/carousel/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/carousel/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/cover/cover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/cover/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/dashboard/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/grid/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/grid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/jumbotron/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/jumbotron/jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/justified-nav/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/justified-nav/justified-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/narrow-jumbotron/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbar-top-fixed/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbar-top-fixed/navbar-top-fixed.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbar-top/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbar-top/navbar-top.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/.phpintel/43d5dfcda80886ff5022bb5b0753f738" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/.phpintel/5b7e15356538b017288c7f7cd97b8306" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/.phpintel/61b7b0b46a1bb3b7ccda32012d638a8e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/.phpintel/ccf14fd961960c204f9fdec9f10513ed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/.phpintel/index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/HTML/BootstrapForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/HTML/Form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/bkp/Personnage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/bkp/form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/bkp/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/bkp/index2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/bkp/text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/Archer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/Autoloader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/BootstrapForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/Personnage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/Text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/form.php-tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/class/text.php-tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/code.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/creer_personnage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/maclasse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/personnage.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/personnage.old.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/personnage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/pmanager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/controller/site/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/exemple.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/index.php-tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/index2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/index2.php-tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/model/site/bddcn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/view/site/index.old.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/navbars/pooform/view/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/offcanvas/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/offcanvas/offcanvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/offcanvas/offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/album.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/blog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/carousel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/dashboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/equal-height-columns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/grid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/jumbotron-narrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/justified-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/navbar-fixed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/navbar-static.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/non-responsive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/offcanvas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/sign-in.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/starter-template.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/sticky-footer-navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/sticky-footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/screenshots/theme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/signin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/signin/signin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/starter-template/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/starter-template/starter-template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/sticky-footer-navbar/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/sticky-footer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/sticky-footer/sticky-footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/tooltip-viewport/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/extend/approach.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/extend/icons.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/extend/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/accessibility.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/best-practices.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/browsers-devices.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/build-tools.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/contents.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/download.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/introduction.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/javascript.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/options.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/getting-started/webpack.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/layout/grid.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/layout/media-object.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/layout/overview.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/layout/utilities-for-layout.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/migration.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/borders.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/clearfix.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/close-icon.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/colors.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/display.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/embed.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/flex.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/float.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/image-replacement.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/position.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/screenreaders.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/sizing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/spacing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/text.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/vertical-align.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/docs/4.0/utilities/visibility.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/alert.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/button.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/carousel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/collapse.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/dropdown.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/popover.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/scrollspy.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/tab.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/tooltip.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/dist/util.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/unit/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/collapse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/modal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/popover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/scrollspy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/js/tests/visual/tooltip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/nuget/MyGet.ps1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/nuget/bootstrap.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/nuget/bootstrap.sass.nuspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/sache.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_button-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_card.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_close.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_code.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_custom-forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_images.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_input-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/bootstrap-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/bootstrap-reboot.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_background-variant.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_border-radius.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_gradients.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_list-group.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_reset-text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_resize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_size.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_table-row.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_text-hide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_transition.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/mixins/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_align.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_borders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_clearfix.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_display.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_embed.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_flex.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_position.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_sizing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4/scss/utilities/_visibility.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/Auth/DBAuth.php" afterPath="$PROJECT_DIR$/core/Auth/DbAuth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Views/home/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Views/home/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Views/templates/default_bkp2.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Views/posts/404.html.twig" afterPath="$PROJECT_DIR$/app/Views/home/404.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/opcP5.iml" afterPath="$PROJECT_DIR$/.idea/opcP5.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/AppController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/UsersController.php" afterPath="$PROJECT_DIR$/app/Controller/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Entity/PostEntity.php" afterPath="$PROJECT_DIR$/app/Entity/PostEntity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/templates/default.html.twig" afterPath="$PROJECT_DIR$/app/Views/templates/default.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Views/users/login.html.twig" afterPath="$PROJECT_DIR$/app/Views/users/login.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Controller/Controller.php" afterPath="$PROJECT_DIR$/core/Controller/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" afterPath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" afterPath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/HTML/Form.php" afterPath="$PROJECT_DIR$/core/HTML/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/Table/Table.php" afterPath="$PROJECT_DIR$/core/Table/Table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -461,6 +28,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -493,48 +63,7 @@
     <favorites_list name="opcP5" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Views/templates/default.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/posts/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/categories/category.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/posts/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -555,11 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Views/admin/posts/edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Ressources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Ressources/views/users/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Ressources/views/posts/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Ressources/views/admin/posts/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Ressources/views/admin/categories/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/with-sidebar.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/users/layout.html.twig" />
@@ -576,8 +100,6 @@
         <option value="$PROJECT_DIR$/app/Entity/CategoryEntity.php" />
         <option value="$PROJECT_DIR$/app/Controller/ContactController.php" />
         <option value="$PROJECT_DIR$/app/Views/templates/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/public/styles/css/jumbotron.css" />
         <option value="$PROJECT_DIR$/public/styles/css/bootstrap-reboot.css" />
@@ -592,19 +114,26 @@
         <option value="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
         <option value="$PROJECT_DIR$/core/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
         <option value="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
-        <option value="$PROJECT_DIR$/app/Controller/PostsController.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/core/Database/MysqlDatabase.php" />
         <option value="$PROJECT_DIR$/public/bootstrap/dist/css/jumbotron.css" />
         <option value="$PROJECT_DIR$/public/dist/css/jumbotron.css" />
         <option value="$PROJECT_DIR$/app/Views/templates/with-sidebar.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/posts/show.html.twig" />
+        <option value="$PROJECT_DIR$/core/Database/MysqlDatabase.php" />
+        <option value="$PROJECT_DIR$/app/Views/posts/index.html.twig" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/PostsController.php" />
+        <option value="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/app/Views/categories/category.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/contact/contact.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/users/login.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/posts/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/categories/category.html.twig" />
-        <option value="$PROJECT_DIR$/app/Views/posts/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/templates/default_bkp2.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/posts/posts.html.twig" />
+        <option value="$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/templates/default.html.twig" />
       </list>
     </option>
@@ -618,7 +147,6 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/public/styles/jquery/node_modules" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="ccff5801-37c6-400c-897f-558b88644d2c" name="localhost" />
@@ -632,9 +160,14 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1">
     <include_path>
       <path value="C:\xampp\php\PEAR" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="690" />
     <option name="width" value="676" />
     <option name="height" value="740" />
@@ -657,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -686,24 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="DB Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="DB Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="11acc068-7e47-4d65-9f50-53fa176069e4" type="61db50fb:ScratchProjectViewPane$MyPsiNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -720,7 +237,41 @@
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
@@ -741,6 +292,13 @@
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -753,7 +311,62 @@
             <path>
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="DB Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="DB Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="11acc068-7e47-4d65-9f50-53fa176069e4" type="61db50fb:ScratchProjectViewPane$MyPsiNode" />
             </path>
           </expand>
           <select />
@@ -764,26 +377,26 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/bootstrap/dist/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/home" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="jumbo&#9;FILE&#9;file:///media/lsm/Windows8_OS/xampp/htdocs/PhpstormProjects/opcP5/public/dist/css/jumbotron.css&#10;file&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/vendor/twig/twig/lib/Twig/Loader/Filesystem.php&#10;register&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="def&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/templates/default.html.twig&#10;defa&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/templates/default.html.twig&#10;jumbo&#9;FILE&#9;file:///media/lsm/Windows8_OS/xampp/htdocs/PhpstormProjects/opcP5/public/dist/css/jumbotron.css&#10;file&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/vendor/twig/twig/lib/Twig/Loader/Filesystem.php&#10;register&#9;null&#9;null" />
     <property name="Constants" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Views/templates" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\posts" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Ressources\views\admin\categories" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Ressources\views\admin\posts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\public\images" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\public" />
       <recent name="$PROJECT_DIR$/public/vendor/bootstrap/dist/css" />
       <recent name="$PROJECT_DIR$/public/bootstrap/dist/css" />
       <recent name="$PROJECT_DIR$/public/bootstrap" />
-      <recent name="$PROJECT_DIR$/public/dist/css" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\categories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\templates" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Controller" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\home" />
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\posts" />
+      <recent name="$PROJECT_DIR$/app/Views/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -938,7 +551,9 @@
       <workItem from="1511529007389" duration="2302000" />
       <workItem from="1511570533682" duration="1871000" />
       <workItem from="1511577240100" duration="1360000" />
-      <workItem from="1511579023753" duration="18858000" />
+      <workItem from="1511579023753" duration="18933000" />
+      <workItem from="1511706111432" duration="3477000" />
+      <workItem from="1511793340123" duration="22670000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -1129,19 +744,24 @@
       <option name="project" value="LOCAL" />
       <updated>1509469512140</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Bootstratping">
+      <created>1511659575491</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1511659575491</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410228000" />
+    <option name="totallyTimeSpent" value="436450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1149,11 +769,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32253087" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27045456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35022694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1164,6 +785,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1199,7 +821,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="Add Class PostsController public function index()" />
     <MESSAGE value="var_dump $page" />
     <MESSAGE value="Deleted folder config and config.php file inside that folder&#10;Changed config.php path name" />
     <MESSAGE value="Changed config.php path name to /core/config.php" />
@@ -1223,7 +844,9 @@
     <MESSAGE value="Customization ! Can't get my contents when edit" />
     <MESSAGE value="Customization ! CSS" />
     <MESSAGE value="Working on linux now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on linux now" />
+    <MESSAGE value="Bootstratping" />
+    <MESSAGE value="Bootstratping Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstratping Part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1237,69 +860,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Database/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Entity/PostEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Entity/CategoryEntity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Autoloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Entity/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1332,41 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/HTML/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Auth/DbAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/HTML/BootstrapForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1374,17 +903,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/AppController.php">
+    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.categories" />
+    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.users" />
+    <entry file="das://src:table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.articles" />
+    <entry file="file://$PROJECT_DIR$/app/Table/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php">
+    <entry file="file://$PROJECT_DIR$/app/Table/PostTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="15">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.articles" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52b1ba6e-4162-4c86-a67a-cff21132aa13/console.sql" />
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/navbars/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/jumbotron/jumbotron.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/dist/css/jumbotron.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/bootstrap/dist/css/jumbotron.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/templates/default.bkp.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/templates/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/templates/with-sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/posts/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,195 +1018,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/Auth/DbAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-32">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/core/Database/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.categories" />
-    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.users" />
-    <entry file="das://src:table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.articles" />
-    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Table/UserTable.php">
+    <entry file="file://$PROJECT_DIR$/core/Entity/Entity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Table/PostTable.php">
+    <entry file="file://$PROJECT_DIR$/core/HTML/BootstrapForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/be90ce1c/11acc068-7e47-4d65-9f50-53fa176069e4/mon_blog.articles" />
-    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/core/HTML/Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="298">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/Database/MysqlDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="379">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#457#839#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52b1ba6e-4162-4c86-a67a-cff21132aa13/console.sql">
+    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#95#267#0#PHP" expanded="true" />
+            <element signature="e#607#987#0#PHP" expanded="true" />
+            <element signature="e#993#1154#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css">
+    <entry file="file://$PROJECT_DIR$/app/Controller/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="21" column="74" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding>
+            <element signature="e#96#268#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/navbars/navbar.css">
+    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/docs/4.0/examples/jumbotron/jumbotron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/dist/css/jumbotron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/bootstrap/dist/css/jumbotron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/templates/default.bkp.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/categories.edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="306">
           <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/Admin/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#131#265#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/categories/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/users/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/templates/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/contact/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/templates/with-sidebar.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/templates/default_bkp2.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="14" column="74" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/posts/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/posts/posts.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/categories/category.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="138">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/posts/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Views/admin/posts/admin.posts.index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="370">
+          <caret line="43" column="54" lean-forward="false" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Views/templates/default.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        <state relative-caret-position="1151">
+          <caret line="86" column="61" lean-forward="false" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

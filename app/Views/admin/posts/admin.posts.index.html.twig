@@ -3,59 +3,64 @@
     <title>Accueil</title>
 {% endblock %}
 
-
+{% block header %}{% endblock header %}
 
 {% block content %}
 
 
         <div class="row">
             <div class="col-md-12">
-                <h1 class="display-4 text-center text-uppercase font-weight-bold">Articles</h1>
+                <h1 class="text-center text-uppercase font-weight-bold">Articles</h1>
             </div>
 
-            <div class="col-md-10">
-                <div>
-                        <a href="?p=admin.posts.add" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Ajouter</a>
-                </div>
-            </div>
-            <div class="col-md-2 text-right">
-                <div>
-                    <a href="?p=admin.categories.index" class="btn btn-outline-dark text-uppercase font-weight-bold btn-lg">Catégories</a>
-                </div>
+            <div class="col-md-12 text-center">
+                        <a href="?p=admin.posts.add" class="btn btn-outline-dark text-uppercase font-weight-bold">Ajouter article</a>
             </div>
 
         </div>
 
         <br/>
 
-        <div class="row display-4">
+
+        <div class="row-fluid text-center">
             <div class="col-md-12 mx-auto">
-                <table class="table table-light">
+                <table class="table table-responsive-md">
                     <thead>
-                    <tr class="font-weight-bold">
-                        <td>ID</td>
-                        <td>Titre</td>
-                        <td>Actions</td>
+                    <tr>
+                        <div class="list-group">
+                        <td><a class="list-group-item"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; ID</a></td>
+                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Titre</a></td>
+                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Modifier</a></td>
+                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Supprimer</a></td>
+                        </div>
                     </tr>
                     </thead>
                     <tbody>
 
                     {% for article in articles %}
+                    <div class="list-group">
                         <tr>
-                            <td>{{ article.id }}</td>
                             <td>
-                            <a href="{{ article.url }}">
-                                {{ article.titre }}
-                            </a></td>
+                            <a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ article.id }}</a>
+                            </td>
                             <td>
-                                <a class="btn btn-outline-dark" href="?p=admin.posts.edit&id={{article.id}}">Editer</a>
-                                <form action="?p=admin.posts.delete" method="post" style="display:inline">
+                                <a class="list-group-item" href="{{ article.url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;  {{ article.titre }}</a>
+                            </td>
+
+                            <td>
+                                <a class="list-group-item btn btn-outline-dark" href="?p=admin.posts.edit&id={{article.id}}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;  Editer</a>
+                            </td>
+                            <td>
+                                <a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>
+                                    <form action="?p=admin.posts.delete" method="post" style="display:inline">
                                   <input type="hidden" name="id" value="{{article.id}}">
-                                    <button type="submit" class="btn btn-outline-danger">Supprimer</button>
+                                    <button type="submit" class="btn btn-outline-danger"> Supprimer</button>
                                 </form>
+                                </a>
                             </td>
 
                         </tr>
+                    </div>
                     {% endfor %}
                     </tbody>
                 </table>

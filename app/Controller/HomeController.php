@@ -3,7 +3,7 @@
 namespace App\Controller;
 use \App;
 
-class PostsController extends AppController {
+class HomeController extends AppController {
 
 
     public function __construct(\Twig_Environment $twig)
@@ -19,7 +19,7 @@ class PostsController extends AppController {
         $posts = $this->Post->last();
         $categories = $this->Category->all();
        /* ['articles' => $posts, 'categories' => $categories]; //Portée des variables $posts et $categories*/
-        echo $this->render('posts.html.twig', ['articles' => $posts, 'categories' => $categories]);
+        echo $this->render('index.html.twig', ['articles' => $posts, 'categories' => $categories]);
     }
 
     public function category() {

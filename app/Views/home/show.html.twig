@@ -1,0 +1,26 @@
+{% extends 'default.html.twig' %}
+
+{% block head %}
+    {% if articles %}
+    <title>{{ articles.titre }} - {{ articles.categorie }}</title>
+    {% endif %}
+{% endblock %}
+
+
+
+{% block main %}
+
+
+    <div class="mx-auto text-justify">
+    {% if articles %}
+        <h1 class="display-4 text-center font-weight-bold text-uppercase">{{ articles.titre }}</h1>
+        <p class="font-weight-bold text-center text-uppercase"><em>{{ articles.categorie }}</em></p>
+        <p class="font-weight-bold text-center text-uppercase"> {{ articles.date }} </p>
+        <p class=""> {{ articles.contenu | markdown }} </p>
+    {% endif %}
+
+
+    </div>
+
+
+{% endblock %}
