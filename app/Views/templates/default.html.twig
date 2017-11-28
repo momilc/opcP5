@@ -27,21 +27,18 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item {{ activeClass('index')}}">
-                    <a class="nav-link" href="index.php?p=home.index">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php?p=home.index">Accueil</a>
                 </li>
-                <a class="nav-link" href="index.php?p=posts.index">Articles <span class="sr-only">(current)</span></a>
+                <li class="nav-item {{ activeClass('posts')}}">
+                <a class="nav-link" href="index.php?p=posts.index">Articles</a>
                 </li>
-                <li class="nav-item dropdown {{ activeClass('administration')}}">
-                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administration</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="index.php?p=users.login">Connexion</a>
-                        <a class="dropdown-item" href="index.php?p=admin.posts.index">Articles</a>
-                    </div>
+                <li class="nav-item {{ activeClass('admin')}}">
+                    <a class="nav-link" href="index.php?p=admin.posts.index">Administration</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="text" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
             </form>
         </div>
     </nav>

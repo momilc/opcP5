@@ -32,15 +32,9 @@ class Controller extends Twig_Extension {
         echo $this->twig->render($view, $variables);
     }
 
-    protected function forbidden() {
-        header('HTTP/1.0 403 Forbiden');
-        die('Accès Interdit. Veuillez vous connecter!');
-    }
-
     protected static function notFound(){
         header('HTTP/1.0 404 Not Found');
         die('Page introuvable');
     }
-
 
 }

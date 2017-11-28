@@ -1,5 +1,5 @@
 {% extends 'default.html.twig' %}
-{% import '/form.html.twig' as form %}
+
 
 {% block head %}
     <title>Accueil</title>
@@ -22,14 +22,34 @@
             Phasellus fermentum leo ut neque feugiat, eu viverra ante consequat. Donec eget nunc mauris. Aenean eleifend hendrerit finibus. Sed enim diam, congue in enim id, fermentum viverra mauris. Maecenas scelerisque urna in arcu semper vestibulum. In cursus justo sed tempus tincidunt. Etiam vehicula sapien ut odio aliquam, id euismod elit volutpat. Nam eget mauris ac sem feugiat hendrerit sed rhoncus purus.
         </p>
 
-        <div class="form-group">
-            {{ form.input('name', 'Votre nom', name, {class: 'col-md-6'}) }}
-            {{ form.input('email', 'Votre email', email, {class: 'col-md-6', type: 'email' }) }}
-            {{ form.textarea('message', 'Votre message', message, {class: 'col-md-10'}) }}
-
-            {{ form.button('Envoyer', {class: 'col-md'}) }}
+    <form id="form" name="mail" method="post" action="../../email.php">
+    <div class="form-group fa-wpforms">
+        <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-user fa-fw">Nom:</i></span>
+            <input id="name" name="name" class="form-control" type="text" placeholder="Votre nom">
         </div>
-
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user fa-fw">Prénom:</i></span>
+            <input id="firstname" name="firstname" class="form-control" type="text" placeholder="Votre prénom">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-mail fa-fw">Adresse E-mail:</i></span>
+            <input id="email" name="email" class="form-control" type="email" placeholder="Votre E-mail">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw">Objet :</i></span>
+            <input id="subject" name="subject" class="form-control" type="text" placeholder="Objet du message">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw">Message:</i></span>
+            <textarea id="message" name="message"  class="form-control" type="text" placeholder="Votre message"></textarea>
+        </div>
+        <br>
+        <div class="input-group">
+                <input type="submit" name="submit" value="Envoyer">
+        </div>
+    </div>
+    </form>
 
 {% endblock %}
 {% endblock body %}

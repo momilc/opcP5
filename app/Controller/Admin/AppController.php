@@ -11,11 +11,8 @@ class AppController extends App\Controller\AppController {
     public function __construct(\Twig_Environment $twig)
     {
         parent::__construct($twig);
-        //Auth
-        $app = App::getInstance();
-        $auth = new DbAuth($app->getDb());
-        if(!$auth->logged()){
-            $this->forbidden();
-        }
+
+        App::getInstance();
+
     }
 }
