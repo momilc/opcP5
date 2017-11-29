@@ -28,7 +28,7 @@ class Controller extends Twig_Extension {
                 echo require ($this->viewPath . str_replace('.', '/', $view). str_replace('.', '/', '/categories/'). str_replace('', '.', $view));
                 break;
             }
-        $content = ob_get_clean();
+        ob_get_clean();
         echo $this->twig->render($view, $variables);
     }
 

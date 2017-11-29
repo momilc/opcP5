@@ -20,10 +20,14 @@ class PostsController extends AppController
 
     public function add() {
         if(!empty($_POST)) {
+
             $result = $this->Post->create([
                'titre' => $_POST['titre'],
                'contenu' => $_POST['contenu'],
                'category_id' => $_POST['category_id'],
+				'date' => date('Y-m-d H:i:s'),
+				'date_modif' => date('Y-m-d H:i:s')
+
             ]);
 
             if($result) {
@@ -38,10 +42,13 @@ class PostsController extends AppController
 
     public function edit(){
         if (!empty($_POST)) {
-            $result = $this->Post->update($_GET['id'], [
+			$result = $this->Post->update($_GET['id'], [
                'titre' => $_POST['titre'],
                'contenu' => $_POST['contenu'],
                'category_id' => $_POST['category_id'],
+				'date' => date('Y-m-d H:i:s'),
+				'date_modif' => date('Y-m-d H:i:s')
+
             ]);
             if($result){
                 echo $this->index();

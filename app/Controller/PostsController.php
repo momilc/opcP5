@@ -6,7 +6,11 @@ use \App;
 class PostsController extends AppController {
 
 
-    public function __construct(\Twig_Environment $twig)
+	/**
+	 * PostsController constructor.
+	 * @param \Twig_Environment $twig
+	 */
+	public function __construct(\Twig_Environment $twig)
     {
         parent::__construct($twig);
         $this->loadModel('Post');
@@ -18,7 +22,6 @@ class PostsController extends AppController {
 
         $posts = $this->Post->last();
         $categories = $this->Category->all();
-       /* ['articles' => $posts, 'categories' => $categories]; //Portée des variables $posts et $categories*/
         echo $this->render('posts.html.twig', ['articles' => $posts, 'categories' => $categories]);
     }
 

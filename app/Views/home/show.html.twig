@@ -16,8 +16,12 @@
         <h1 class="display-4 text-center font-weight-bold text-uppercase">{{ articles.titre }}</h1>
         <p class="font-weight-bold text-center text-uppercase"><em>{{ articles.categorie }}</em></p>
         <p class="font-weight-bold text-center text-uppercase"> {{ articles.date }} </p>
+        <p class="font-weight-bold text-center text-uppercase"> {{ articles.date_modif }} </p>
         <p class=""> {{ articles.contenu | markdown }} </p>
     {% endif %}
+    {% for auteur in articles %}
+            <p class="font-weight-bold text-center text-uppercase">{{ auteur.pseudo }}</p>
+     {% endfor %}
 
 
     </div>

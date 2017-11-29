@@ -26,32 +26,34 @@
             <div class="col-md-12 mx-auto">
                 <table class="table table-responsive-md">
                     <thead>
+
                     <tr>
-                        <div class="list-group">
-                        <td><a class="list-group-item"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; ID</a></td>
-                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Titre</a></td>
-                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Modifier</a></td>
-                        <td><a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Supprimer</a></td>
-                        </div>
+
+                            <td><a class="list-group-item">&nbsp; ID</a></td>
+                            <td><a class="list-group-item">&nbsp; Titre</a></td>
+                            <td><a class="list-group-item">&nbsp; Modifier</a></td>
+                            <td><a class="list-group-item">&nbsp; Supprimer</a></td>
+
                     </tr>
+
                     </thead>
                     <tbody>
 
                     {% for article in articles %}
-                    <div class="list-group">
+
                         <tr>
                             <td>
-                            <a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ article.id }}</a>
+                            <a class="list-group-item">&nbsp; {{ article.id }}</a>
                             </td>
                             <td>
-                                <a class="list-group-item" href="{{ article.url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;  {{ article.titre }}</a>
+                                <a class="list-group-item text-left text-uppercase" href="{{ article.url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;  {{ article.titre }}</a>
                             </td>
 
                             <td>
-                                <a class="list-group-item btn btn-outline-dark" href="?p=admin.posts.edit&id={{article.id}}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp;  Editer</a>
+                                <a class="list-group-item btn btn-outline-dark" href="?p=admin.posts.edit&id={{article.id}}"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;  Editer</a>
                             </td>
                             <td>
-                                <a class="list-group-item"><i class="fa fa-book fa-fw" aria-hidden="true"></i>
+                                <a class="list-group-item"><i class="fa fa-trash-o" aria-hidden="true"></i>
                                     <form action="?p=admin.posts.delete" method="post" style="display:inline">
                                   <input type="hidden" name="id" value="{{article.id}}">
                                     <button type="submit" class="btn btn-outline-danger"> Supprimer</button>
@@ -60,7 +62,7 @@
                             </td>
 
                         </tr>
-                    </div>
+
                     {% endfor %}
                     </tbody>
                 </table>
