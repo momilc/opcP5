@@ -20,12 +20,12 @@ class PostTable extends Table
      */
     public function last() {
         return $this->query("
-        SELECT articles.id, articles.titre, articles.contenu, articles.date, categories.titre as categorie
+        SELECT articles.id, articles.titre, articles.contenu, articles.date, auteur.pseudo as auteur, categories.titre as categorie
         FROM articles
         LEFT JOIN categories ON category_id = categories.id
+        LEFT JOIN auteur ON auteur_id = auteur.id
         ORDER BY articles.date DESC");
     }
-
 
     /**
      * Récupère les derniers articles de la catégorie demandée
@@ -35,9 +35,10 @@ class PostTable extends Table
     public function lastByCategory($category_id) {
 
         return $this->query("
-        SELECT articles.id, articles.titre, articles.contenu, articles.date, categories.titre as categorie
+        SELECT articles.id, articles.titre, articles.contenu, articles.date, auteur.pseudo as auteur, categories.titre as categorie
         FROM articles
         LEFT JOIN categories ON category_id = categories.id
+        LEFT JOIN auteur ON auteur_id = auteur.id
         WHERE articles.category_id = ?
         ORDER BY articles.date DESC"
             , [$category_id]);
@@ -51,9 +52,10 @@ class PostTable extends Table
     public function findWithCategory($id) {
 
         return $this->query("
-        SELECT articles.id, articles.titre, articles.contenu, articles.date, categories.titre as categorie
+        SELECT articles.id, articles.titre, articles.contenu, articles.date_modif, auteur.pseudo as auteur, categories.titre as categorie
         FROM articles
         LEFT JOIN categories ON category_id = categories.id
+        LEFT JOIN auteur ON auteur_id = auteur.id
         WHERE articles.id = ?", [$id], true);
     }
 }
