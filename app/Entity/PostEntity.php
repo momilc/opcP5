@@ -23,4 +23,12 @@ class PostEntity extends Entity {
         return strip_tags($html);
     }
 
+	public function getAuteur() {
+
+		$html = '<p>'.$this->auteur. '</p>';
+		return strip_tags($html);
+	}
+
+
+
 }

@@ -23,31 +23,34 @@ class PostsController extends AppController
 
             $result = $this->Post->create([
                'titre' => $_POST['titre'],
+               'chapo' => $_POST['chapo'],
                'contenu' => $_POST['contenu'],
+               'auteur_id' => $_POST['auteur_id'],
                'category_id' => $_POST['category_id'],
 				'date' => date('Y-m-d H:i:s'),
-				'date_modif' => date('Y-m-d H:i:s')
 
             ]);
-
             if($result) {
                 echo $this->index();
             }
         }
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
+		$this->loadModel('Auteur');
+		$auteur = $this->Auteur->extract('id', 'pseudo');
         $form = new BootstrapForm($_POST);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur' => $auteur, 'form' => $form]);
     }
 
     public function edit(){
         if (!empty($_POST)) {
 			$result = $this->Post->update($_GET['id'], [
                'titre' => $_POST['titre'],
+               'chapo' => $_POST['chapo'],
                'contenu' => $_POST['contenu'],
+				'auteur_id' => $_POST['auteur_id'],
                'category_id' => $_POST['category_id'],
-				'date' => date('Y-m-d H:i:s'),
-				'date_modif' => date('Y-m-d H:i:s')
+				'date_modif' => $_POST[date('d-m-Y H:i:s')]
 
             ]);
             if($result){
@@ -56,10 +59,12 @@ class PostsController extends AppController
         }
 
         $post = $this->Post->find($_GET['id']);
+		$this->loadModel('Auteur');
+		$auteur = $this->Auteur->extract('id', 'pseudo');
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
         $form = new BootstrapForm($post);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'form' => $form]);
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur'=> $auteur, 'form' => $form]);
     }
 
     public function delete() {

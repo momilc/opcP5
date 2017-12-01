@@ -18,7 +18,6 @@ class HomeController extends AppController {
 
         $posts = $this->Post->last();
         $categories = $this->Category->all();
-       /* ['articles' => $posts, 'categories' => $categories]; //Portée des variables $posts et $categories*/
         echo $this->render('index.html.twig', ['articles' => $posts, 'categories' => $categories]);
     }
 

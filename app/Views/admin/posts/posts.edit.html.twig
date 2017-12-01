@@ -6,23 +6,7 @@
 {% endblock %}
 {% block header %}{% endblock header %}
 {% block body %}
-    {% block sidebar %}
-        {{ parent() }}
-        <h2>Articles</h2>
 
-        <ul>
-
-            {% if categories %}
-
-                <li>
-                    <a href="{{ categories.url }}">
-                        {{ categories.titre }}
-                    </a>
-                </li>
-            {% endif %}
-        </ul>
-
-    {% endblock %}
 
     {% block content %}
 
@@ -34,7 +18,15 @@
                     <form method="post">
 
                         {{ form.input('titre', 'Titre de l\'article', {class: 'col-md-12', type: 'text'}) | raw }}
+                        {{ form.textarea('chapo', 'Chapô de l\'article', {class: 'col-md-12'}) | raw }}
                         {{ form.textarea('contenu', 'Contenu de l\'article', {class: 'col-md-12'}) | raw }}
+                        <label>Auteur
+                                {% for auteur_id, auteur in auteur %}
+                                       <input class="form-control col-md-12" name="{{ auteur }}" id="{{ auteur }}" value="{{ auteur }}" placeholder="Pseudo de l'auteur">
+                                {% endfor %}
+                        </label>
+
+                        {{ form.input('date_modif', 'Date de modification', {class: 'col-md-12'}) | raw }}
 
                         <label class="form-control-label">Catégories
                             <select id="select" class="form-control" name="category_id">
