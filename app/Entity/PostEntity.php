@@ -19,16 +19,9 @@ class PostEntity extends Entity {
 	 * @return string
 	 */
 	public function getExtrait() {
-        $html = '<p>' .substr($this->contenu,0, 150) . ' ...</p>';
+        $html = '<p>' . substr($this->contenu, 0, 150) . '...</p>';
         return strip_tags($html);
     }
-
-	public function getAuteur() {
-
-		$html = '<p>'.$this->auteur. '</p>';
-		return strip_tags($html);
-	}
-
 
 
 }

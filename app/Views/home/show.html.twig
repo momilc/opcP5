@@ -16,8 +16,8 @@
         <h1 class="display-4 text-center font-weight-bold text-uppercase">{{ articles.titre }}</h1>
         <p class="font-weight-bold text-center text-uppercase"><em>{{ articles.categorie }}</em></p>
         <p class="font-weight-bold text-center text-uppercase"> {{ articles.date }} </p>
-        <p class="font-weight-bold text-center text-uppercase">Auteur : {{ articles.auteur }} </p>
-        <p class="font-weight-bold text-center text-uppercase">Date de modification: {{ articles.date_modif }} </p>
+        <p class="font-weight-bold text-center text-uppercase"> {{ articles.auteur }} </p>
+        <p class="font-weight-bold text-center text-uppercase"> {{ articles.date_modif }} </p>
         <p class="text-justify"> {{ articles.contenu | markdown }} </p>
         <p>
         <a class="list-group-item btn btn-outline-dark" href="?p=admin.posts.edit&id={{articles.id}}"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;  Editer</a>

@@ -7,6 +7,9 @@ use \Core\HTML\BootstrapForm;
 class PostsController extends AppController
 {
 
+
+    private $auteur_id;
+
     public function __construct(\twig_Environment $twig)
     {
         parent::__construct($twig);
@@ -25,9 +28,10 @@ class PostsController extends AppController
                'titre' => $_POST['titre'],
                'chapo' => $_POST['chapo'],
                'contenu' => $_POST['contenu'],
-               'auteur_id' => $_POST['auteur_id'],
+                'auteur_id' => $this->auteur_id,
                'category_id' => $_POST['category_id'],
-				'date' => date('Y-m-d H:i:s'),
+				'date' => date('Y/m/d H:i:s')
+
 
             ]);
             if($result) {
@@ -36,21 +40,22 @@ class PostsController extends AppController
         }
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
-		$this->loadModel('Auteur');
-		$auteur = $this->Auteur->extract('id', 'pseudo');
+        $this->loadModel('Auteur');
+        $auteurs = $this->Auteur->extract('id', 'pseudo');
         $form = new BootstrapForm($_POST);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur' => $auteur, 'form' => $form]);
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur' => $auteurs, 'form' => $form]);
     }
 
     public function edit(){
+
         if (!empty($_POST)) {
 			$result = $this->Post->update($_GET['id'], [
                'titre' => $_POST['titre'],
                'chapo' => $_POST['chapo'],
                'contenu' => $_POST['contenu'],
-				'auteur_id' => $_POST['auteur_id'],
+				'auteur_id' => $this->auteur_id,
                'category_id' => $_POST['category_id'],
-				'date_modif' => $_POST[date('d-m-Y H:i:s')]
+				'date_modif' => date('Y/m/d H:i:s')
 
             ]);
             if($result){
@@ -59,12 +64,12 @@ class PostsController extends AppController
         }
 
         $post = $this->Post->find($_GET['id']);
-		$this->loadModel('Auteur');
-		$auteur = $this->Auteur->extract('id', 'pseudo');
         $this->loadModel('Category');
         $categories = $this->Category->extract('id', 'titre');
+        $this->loadModel('Auteur');
+        $auteurs = $this->Auteur->extract('id', 'pseudo');
         $form = new BootstrapForm($post);
-        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur'=> $auteur, 'form' => $form]);
+        echo $this->render('posts.edit.html.twig', ['categories' => $categories, 'auteur' => $auteurs, 'form' => $form]);
     }
 
     public function delete() {
