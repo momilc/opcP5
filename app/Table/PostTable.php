@@ -78,5 +78,15 @@ class PostTable extends Table
         WHERE articles.id = ?", [$id], true);
     }
 
+    public function findWithAuteur($id) {
+
+        return $this->query("
+        SELECT articles.id, articles.titre, articles.contenu, articles.date_modif, categories.titre as categorie, auteurs.pseudo as auteur
+        FROM articles
+        LEFT JOIN categories ON category_id = categories.id
+        LEFT JOIN auteurs ON auteur_id = auteurs.id
+        WHERE articles.id = ?", [$id], true);
+    }
+
 }
 

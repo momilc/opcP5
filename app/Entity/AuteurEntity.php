@@ -7,5 +7,4 @@ Class AuteurEntity extends Entity
 
 {
 
-
 }

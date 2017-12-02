@@ -20,14 +20,13 @@
                         {{ form.input('titre', 'Titre de l\'article', {class: 'col-md-12', type: 'text'}) | raw }}
                         {{ form.textarea('chapo', 'Chapô de l\'article', {class: 'col-md-12'}) | raw }}
                         {{ form.textarea('contenu', 'Contenu de l\'article', {class: 'col-md-12'}) | raw }}
-                        <label>Auteur
-                                {% for auteur_id, auteur in auteur %}
-                                       <input class="form-control col-md-12" name="{{ auteur }}" id="{{ auteur }}" value="{{ auteur }}" placeholder="Pseudo de l'auteur">
+                        {{ form.input('auteur_id', 'Id de l\'auteur', {class: 'col-md-12'}) | raw }}
+                        <label class="form-control-label">Auteur
+                                {% for auteur in auteurs %}
+                                       <input class="form-control" name="{{ auteur }}"  id="{{ auteur.id }}" type="text" value="{{ auteur }}">
                                 {% endfor %}
                         </label>
-
-                        {{ form.input('date_modif', 'Date de modification', {class: 'col-md-12'}) | raw }}
-
+                        <br>
                         <label class="form-control-label">Catégories
                             <select id="select" class="form-control" name="category_id">
                                 {% for category_id, categorie in categories %}
@@ -37,7 +36,7 @@
                                 {% endfor %}
                             </select>
                         </label>
-
+                        {{ form.input('date_modif', 'Date de modification', {class: 'col-md-12'}) | raw }}
                         {{ form.submit('Sauvegarder', {class: 'col-md'}) | raw}}
                     </form>
 
