@@ -22,8 +22,10 @@
                         {{ form.textarea('chapo', 'Chapô de l\'article', {class: 'col-md-12'}) | raw }}
                         {{ form.textarea('contenu', 'Contenu de l\'article', {class: 'col-md-12'}) | raw }}
                         {{ form.input('auteur', 'Nom de l\'auteur', {class: 'col-md-12'}) | raw }}
+                        <br>
 
-                        <input type="hidden" id="date_modif">
+                        <input type="hidden" id="date">
+
                         {{ form.submit('Sauvegarder', {class: 'col-md'}) | raw}}
                     </form>
 
