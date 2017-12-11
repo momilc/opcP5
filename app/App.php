@@ -55,6 +55,11 @@ class App extends \Twig_Extension
         ];
     }
 
+    /**
+     * @param array $context
+     * @param $page
+     * @return null|string
+     */
     public function activeClass(array $context, $page) {
         if (isset($context['current_page']) && $context['current_page'] === $page){
             return ' active ';

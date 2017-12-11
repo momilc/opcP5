@@ -21,6 +21,7 @@ class PostsController extends AppController {
 
         $posts = $this->Post->last();
         echo $this->render('posts.html.twig', ['articles' => $posts]);
+
     }
 
 

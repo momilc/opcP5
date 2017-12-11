@@ -14,7 +14,9 @@
     <div class="mx-auto text-justify">
     {% if articles %}
         <h1 class="display-4 text-center font-weight-bold text-uppercase">{{ articles.titre }}</h1>
-
+        <img class="featurette-image img-fluid mx-auto" src="images/image-{{ articles.id }}.png" alt="Generic placeholder image">
+        <br>
+        <h4 class="jumbotron text-uppercase text-center"> {{ articles.chapo }}</h4>
         <p class="font-weight-bold text-center text-uppercase"> {{ articles.date }} </p>
         <p class="font-weight-bold text-center text-uppercase">Auteur :  {{ articles.auteur }} </p>
         <p class="font-weight-bold text-center text-uppercase">Dernière modification :  {{ articles.date_modif }} </p>

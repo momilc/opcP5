@@ -16,13 +16,13 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 	$mail->isSMTP();                                      // Set mailer to use SMTP
 	$mail->Host = 'ns3072249.fbox.fr';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = 'm.sakho@momilc.com';                 // SMTP username
-	$mail->Password = '123456';                           // SMTP password
+	$mail->Username = 'postmaster@momilc.com';                 // SMTP username
+	$mail->Password = 'x.~[@qqRC2]o';                           // SMTP password
 	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 465;                                    // TCP port to connect to
 	//Recipients
-	$mail->setFrom('m.sakho@momilc.com', 'Mohamed');
-	$mail->addAddress('m.sakho@momilc.com', 'Mohamed');
+	$mail->setFrom('m.sakho@momilc.com', 'Mo');
+	$mail->addAddress('m.sakho@momilc.com', 'Mo');
 	$mail->Subject = $_POST['subject'];
 
 //Content
@@ -44,10 +44,11 @@ EOT;
 			echo $msg = 'Désolé, il y\'a eu une érreur. Veuillez réessayer SVP.';
 		} else {
 			echo $msg = 'Message envoyé ! Merci de m\'avoir contacter. Je fais tout mon possible pour vous répondre dans les plus brefs délais.';
-			}
+		}
 		} else {
 		echo $msg = 'Adresse E-mail invalide, message ignoré.';
+
 		}
 
-$content = ob_get_clean();
-require ROOT. '/app/views/templates/default.html.twig';
+        header('Location: index.php?p=home.index');
+
