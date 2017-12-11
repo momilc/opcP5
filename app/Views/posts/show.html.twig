@@ -18,8 +18,8 @@
         <br>
         <h4 class="jumbotron text-uppercase text-center"> {{ articles.chapo }}</h4>
         <p class="font-weight-bold text-center text-uppercase">Auteur :  {{ articles.auteur }} </p>
-        <p class="font-weight-bold text-center text-uppercase">Dernière modification :  {{ articles.date_modif }} </p>
-        <p class="text-justify"> {{ articles.contenu | markdown }} </p>
+        <p class="font-weight-bold text-center text-uppercase">Dernière modification :  {{ articles.date_modif}} </p>
+            <p class="text-justify"> {{ articles.contenu | markdown }} </p>
         <p>
         <a class="list-group-item btn btn-outline-dark" href="?p=admin.posts.edit&id={{articles.id}}"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;  Editer</a>
         </p>

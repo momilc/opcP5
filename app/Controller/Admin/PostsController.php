@@ -35,8 +35,8 @@ class PostsController extends AppController
                 'chapo' => $_POST['chapo'],
                 'auteur' => $_POST['auteur'],
                 'contenu' => $_POST['contenu'],
-                'date' => date('Y/m/d H:i:s')
-
+                'date' => date('Y/m/d H:i:s'),
+                'date_modif' => date('Y/m/d H:i:s')
                 ]
             );
             if($result) {

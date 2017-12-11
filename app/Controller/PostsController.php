@@ -31,6 +31,7 @@ class PostsController extends AppController
     public function show() 
     {
         $posts = $this->Post->findwithCategory($_GET['id']);
+        var_dump($posts);
         echo $this->render('show.html.twig', ['articles' => $posts]);
     }
 

@@ -23,7 +23,7 @@ class PostTable extends Table
     {
         return $this->query(
             "
-        SELECT articles.id, articles.titre, articles.chapo, articles.contenu, articles.auteur, articles.date
+        SELECT articles.id, articles.titre, articles.chapo, articles.contenu, articles.auteur, articles.date, articles.date_modif
         FROM articles
         ORDER BY articles.date DESC"
         );
@@ -49,7 +49,7 @@ class PostTable extends Table
 
         return $this->query(
             "
-        SELECT articles.id, articles.titre, articles.chapo, articles.contenu, articles.auteur, articles.date_modif
+        SELECT articles.id, articles.titre, articles.chapo, articles.contenu, articles.auteur, articles.date, articles.date_modif
         FROM articles
         WHERE articles.id = ?", [$id], true
         );
