@@ -2,6 +2,7 @@
     "name": "lsm/opc-p5",
     "description": "Blog PHP",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "twig/twig": "^2.4",
         "twig/extensions": "^1.5",

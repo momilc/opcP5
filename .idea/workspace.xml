@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/52b1ba6e-4162-4c86-a67a-cff21132aa13.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/52b1ba6e-4162-4c86-a67a-cff21132aa13.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cv/LICENSE" afterPath="$PROJECT_DIR$/cv/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,14 +84,14 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="1491" column="38" lean-forward="true" selection-start-line="1491" selection-start-column="38" selection-end-line="1491" selection-end-column="38" />
+            <state relative-caret-position="484">
+              <caret line="1498" column="10" lean-forward="true" selection-start-line="1498" selection-start-column="10" selection-end-line="1498" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -112,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,11 +195,11 @@
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/app/Autoloader.php" />
         <option value="$PROJECT_DIR$/core/Autoloader.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/App.php" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/cv/LICENSE" />
         <option value="$PROJECT_DIR$/.idea/dataSources/52b1ba6e-4162-4c86-a67a-cff21132aa13.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -279,17 +278,6 @@
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,14 +496,7 @@
       <workItem from="1512947932755" duration="4680000" />
       <workItem from="1512985443514" duration="18590000" />
       <workItem from="1513011862785" duration="4239000" />
-      <workItem from="1513018183978" duration="4962000" />
-    </task>
-    <task id="LOCAL-00005" summary="Index Shows Articles (title, content, date) and Categories on Sidebar&#10;&#10;Markdown&#10;Twig extensions">
-      <created>1508196337034</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1508196337034</updated>
+      <workItem from="1513018183978" duration="5193000" />
     </task>
     <task id="LOCAL-00006" summary="New Controllers">
       <created>1508289120157</created>
@@ -853,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513024049421</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="83/100 insight :)">
+      <created>1513024628990</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1513024628990</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608176000" />
+    <option name="totallyTimeSpent" value="608407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -977,7 +965,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="Social Medias" />
     <MESSAGE value="Date de l'article..." />
     <MESSAGE value="Affichage Articles" />
     <MESSAGE value="Date dernière modif, auteur et lienmodifier sous l'article" />
@@ -1002,7 +989,8 @@
     <MESSAGE value="La suite" />
     <MESSAGE value="Recommandations Insights Terminer le code par une nouvelle ligne vide." />
     <MESSAGE value="Recommandations Insights 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recommandations Insights 2" />
+    <MESSAGE value="83/100 insight :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="83/100 insight :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1383,14 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/App.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -1409,14 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="1491" column="38" lean-forward="true" selection-start-line="1491" selection-start-column="38" selection-end-line="1491" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources/52b1ba6e-4162-4c86-a67a-cff21132aa13.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
@@ -1429,6 +1401,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="1498" column="10" lean-forward="true" selection-start-line="1498" selection-start-column="10" selection-end-line="1498" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
