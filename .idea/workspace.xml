@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/cv/vendor/bootstrap/favicon.ico" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/Controller/Controller.php" afterPath="$PROJECT_DIR$/core/Controller/Controller.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,31 +60,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/home/index.html.twig">
+      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Views/templates/default.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cv/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -136,34 +147,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/App.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="-298">
               <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="e#6#22#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autoloader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Autoloader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Views/home/404.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -215,7 +206,6 @@
         <option value="$PROJECT_DIR$/app/Views/admin/categories/admin.categories.index.html.twig" />
         <option value="$PROJECT_DIR$/public/vendor/bootstrap/dist/css/socials.css" />
         <option value="$PROJECT_DIR$/app/Views/home/404.html.twig" />
-        <option value="$PROJECT_DIR$/public/admin.php" />
         <option value="$PROJECT_DIR$/app/Table/AuteurTable.php" />
         <option value="$PROJECT_DIR$/app/Controller/Admin/CategoriesController.php" />
         <option value="$PROJECT_DIR$/app/Controller/AuteursController.php" />
@@ -233,7 +223,6 @@
         <option value="$PROJECT_DIR$/app/App.php" />
         <option value="$PROJECT_DIR$/app/Controller/PostsController.php" />
         <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/cv/index.html" />
         <option value="$PROJECT_DIR$/app/Table/PostTable.php" />
         <option value="$PROJECT_DIR$/app/Views/home/show.html.twig" />
         <option value="$PROJECT_DIR$/app/Views/templates/default.html.twig" />
@@ -243,8 +232,10 @@
         <option value="$PROJECT_DIR$/public/email.php" />
         <option value="$PROJECT_DIR$/core/Table/Table.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/core/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/core/Database/MysqlDatabase.php" />
+        <option value="$PROJECT_DIR$/core/Controller/Controller.php" />
+        <option value="$PROJECT_DIR$/public/admin.php" />
+        <option value="$PROJECT_DIR$/cv/index.html" />
       </list>
     </option>
   </component>
@@ -360,6 +351,13 @@
             <path>
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -383,7 +381,31 @@
             <path>
               <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
               <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="cv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="cv" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opcP5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opcP5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,7 +419,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cv/vendor/bootstrap" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="defa&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/templates/default.html.twig&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/home/index.html.twig&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/public/index.php&#10;add&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/admin/posts/posts.add.html.twig&#10;category_id&#9;null&#9;null&#10;Twig_En&#9;null&#9;null&#10;now&#9;null&#9;null&#10;getIn&#9;null&#9;null&#10;find&#9;null&#9;null&#10;PHP&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/vendor/phpmailer/phpmailer/src/SMTP.php&#10;form&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/templates/form.html.twig&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/home/index.html.twig&#10;def&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/app/Views/templates/default.html.twig&#10;jumbo&#9;FILE&#9;file:///media/lsm/Windows8_OS/xampp/htdocs/PhpstormProjects/opcP5/public/dist/css/jumbotron.css&#10;file&#9;null&#9;null&#10;files&#9;FILE&#9;file://C:/xampp/htdocs/PhpstormProjects/opcP5/vendor/twig/twig/lib/Twig/Loader/Filesystem.php&#10;register&#9;null&#9;null" />
     <property name="Constants" value="false" />
@@ -407,11 +429,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\cv\vendor\bootstrap" />
       <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\admin\posts" />
       <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Controller" />
       <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Entity" />
       <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Table" />
-      <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Controller\Admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PhpstormProjects\opcP5\app\Views\posts" />
@@ -599,7 +621,7 @@
       <workItem from="1512866348954" duration="2403000" />
       <workItem from="1512911275536" duration="10965000" />
       <workItem from="1512947932755" duration="4680000" />
-      <workItem from="1512985443514" duration="12190000" />
+      <workItem from="1512985443514" duration="14077000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -909,15 +931,28 @@
       <option name="project" value="LOCAL" />
       <updated>1513001131421</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Suppression lignes inutiles">
+      <created>1513005042417</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1513005042417</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Replace Die by return in controller.php">
+      <created>1513005246236</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1513005246236</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592575000" />
+    <option name="totallyTimeSpent" value="594462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -931,7 +966,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9691358" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1323752" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1033,8 +1068,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="Force to login when page is forbidden" />
-    <MESSAGE value="admin" />
     <MESSAGE value="Problem de select avec twig ?&#10;voir dans posts.edit.html.twig" />
     <MESSAGE value="Ajout liens vers les catégories et vers les articles" />
     <MESSAGE value="Suite administration" />
@@ -1058,7 +1091,9 @@
     <MESSAGE value="Insight Table.php ligne 30" />
     <MESSAGE value="Composer Init" />
     <MESSAGE value="Suppression lignes inutiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suppression lignes inutiles" />
+    <MESSAGE value="Replace Die by return in controller.php" />
+    <MESSAGE value="Suppression admin.php dans le dossier public. Ajout d'un favicon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Suppression admin.php dans le dossier public. Ajout d'un favicon." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,14 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8636">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cv/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="33" column="103" lean-forward="false" selection-start-line="33" selection-start-column="103" selection-end-line="33" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,14 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Views/templates/default.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="76" column="130" lean-forward="false" selection-start-line="76" selection-start-column="130" selection-end-line="76" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/Entity/Entity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1321,14 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.sensiolabs.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1364,14 +1375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1400,22 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1453,11 +1440,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/App.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="-298">
           <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="e#6#22#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_wait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Views/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
