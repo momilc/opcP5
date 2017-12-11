@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/App.php" afterPath="$PROJECT_DIR$/app/App.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/ContactController.php" afterPath="$PROJECT_DIR$/app/Controller/ContactController_bkp.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/HomeController.php" afterPath="$PROJECT_DIR$/app/Controller/HomeController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/PostsController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Table/PostTable.php" afterPath="$PROJECT_DIR$/app/Table/PostTable.php" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/index.html.twig" afterPath="$PROJECT_DIR$/app/Views/home/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/show.html.twig" afterPath="$PROJECT_DIR$/app/Views/home/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/templates/default.html.twig" afterPath="$PROJECT_DIR$/app/Views/templates/default.html.twig" />
-      <change beforePath="$PROJECT_DIR$/public/email.php" afterPath="$PROJECT_DIR$/public/email.php" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -436,7 +426,7 @@
       <workItem from="1512465759021" duration="28190000" />
       <workItem from="1512866348954" duration="2403000" />
       <workItem from="1512911275536" duration="10965000" />
-      <workItem from="1512947932755" duration="4588000" />
+      <workItem from="1512947932755" duration="4670000" />
     </task>
     <task id="LOCAL-00001" summary="Add Class PostsController public function index()">
       <created>1508111745358</created>
@@ -697,11 +687,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512561089282</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Ajout de contenu">
+      <created>1512958720025</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1512958720026</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580293000" />
+    <option name="totallyTimeSpent" value="580375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
