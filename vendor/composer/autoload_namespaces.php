@@ -6,18 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
-    'Twig_' => array($vendorDir . '/twig/twig/lib'),
-    'SensioLabs\\Security' => array($vendorDir . '/sensiolabs/security-checker'),
-    'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src'),
-    'PhpCollection' => array($vendorDir . '/phpcollection/phpcollection/src'),
-    'Michelf' => array($vendorDir . '/michelf/php-markdown'),
-    'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
-    'JMS\\Serializer' => array($vendorDir . '/jms/serializer/src'),
-    'JMS\\' => array($vendorDir . '/jms/parser-lib/src'),
-    'Guzzle\\Stream' => array($vendorDir . '/guzzle/stream'),
-    'Guzzle\\Parser' => array($vendorDir . '/guzzle/parser'),
-    'Guzzle\\Http' => array($vendorDir . '/guzzle/http'),
-    'Guzzle\\Common' => array($vendorDir . '/guzzle/common'),
-    'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
 );
