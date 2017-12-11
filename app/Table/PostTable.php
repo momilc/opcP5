@@ -8,7 +8,7 @@
 
 namespace App\Table;
 use Core\Table\Table;
-use \PDO;
+
 
 class PostTable extends Table
 {

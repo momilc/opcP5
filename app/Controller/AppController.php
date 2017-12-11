@@ -10,6 +10,7 @@ use \Twig_Environment;
 class AppController extends Controller
 {
     protected $template = 'default';
+    protected $viewPath;
 
     public function __construct(Twig_Environment $twig)
     {

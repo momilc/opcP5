@@ -2,8 +2,7 @@
 
 namespace App\Controller\Admin;
 use \App;
-use Core\Database\Database;
-use Core\Database\MysqlDatabase;
+
 use \Core\HTML\BootstrapForm;
 
 class PostsController extends AppController

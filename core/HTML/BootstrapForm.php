@@ -2,8 +2,6 @@
 
 namespace Core\HTML;
 
-use \Twig_Extension;
-
 class BootstrapForm extends Form
 {
 

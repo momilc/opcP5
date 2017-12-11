@@ -7,7 +7,6 @@
  */
 namespace Core\Table;
 use \Core\Database\Database;
-use Core\Database\MysqlDatabase;
 use \Twig_Extension;
 
 class Table extends Twig_Extension

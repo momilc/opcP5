@@ -2,7 +2,7 @@
 
 namespace App\Controller\Admin;
 
-use Core\Auth\DbAuth;
+
 use \App;
 
 

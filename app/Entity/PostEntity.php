@@ -2,7 +2,6 @@
 
 namespace App\Entity;
 use Core\Entity\Entity;
-use Core\Table\Table;
 
 class PostEntity extends Entity {
 

@@ -1,6 +1,12 @@
 {
     "name": "lsm/opc-p5",
-    "description": "PHP Blog",
-    "type": "project",
-    "require": {}
+    "description": "Blog PHP",
+    "type": "Php project",
+    "require": {
+        "symfony/symfony": "^4.0",
+        "twig/twig": "^2.4",
+        "twig/extensions": "^1.5",
+        "michelf/php-markdown": "^1.7",
+        "phpmailer/phpmailer": "^6.0"
+    }
 }
