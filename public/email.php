@@ -17,7 +17,7 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 	$mail->Host = 'ns3072249.fbox.fr';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
 	$mail->Username = 'postmaster@momilc.com';                 // SMTP username
-	$mail->Password = 'x.~[@qqRC2]o';                           // SMTP password
+	$mail->Password = '1235254';                           // SMTP password
 	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 465;                                    // TCP port to connect to
 	//Recipients
