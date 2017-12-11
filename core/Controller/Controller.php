@@ -7,7 +7,7 @@ use \Twig_Extension;
 class Controller extends Twig_Extension {
 
 
- 
+
     private $twig;
 
 
@@ -23,7 +23,7 @@ class Controller extends Twig_Extension {
 
     protected static function notFound(){
         header('HTTP/1.0 404 Not Found');
-        die('Page introuvable');
+        return('Page introuvable');
     }
 
 }
