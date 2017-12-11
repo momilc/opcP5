@@ -25,15 +25,18 @@ class Table extends Twig_Extension
 
     }
 
-    public function all(){
+    public function all()
+    {
         return $this->query("SELECT * FROM {$this->table}");
     }
 
-    public function find($id) {
+    public function find($id) 
+    {
         return $this->query("SELECT * FROM {$this->table} WHERE id = ?", [$id], true);
     }
 
-    public function extract($key, $value) {
+    public function extract($key, $value) 
+    {
         $records = $this->all();
         $return = [];
         foreach ($records as $v){
@@ -42,7 +45,8 @@ class Table extends Twig_Extension
         return $return;
     }
 
-    public function update($id, $fields) {
+    public function update($id, $fields) 
+    {
         $sql_parts = [];
         foreach ($fields as $k => $v){
             $sql_parts[] = "$k = ?";
@@ -53,11 +57,13 @@ class Table extends Twig_Extension
         echo $this->query("UPDATE {$this->table} SET $sql_parts WHERE id = ?", $attributes, true);
     }
 
-    public function delete($id) {
+    public function delete($id) 
+    {
         return $this->query("DELETE FROM {$this->table} WHERE id = ?", [$id], true);
     }
 
-    public function create($fields) {
+    public function create($fields) 
+    {
         $sql_parts = [];
         foreach ($fields as $k => $v){
             $sql_parts[] = "$k = ?";
@@ -68,8 +74,8 @@ class Table extends Twig_Extension
         return $this->query("INSERT INTO {$this->table} SET $sql_part", $attributes, true);
     }
 
-
-    public function query($statement, $attributes = null, $one = false) {
+    public function query($statement, $attributes = null, $one = false) 
+    {
         if ($attributes) {
             return $this->db->prepare(
                 $statement,

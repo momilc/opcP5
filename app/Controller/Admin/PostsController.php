@@ -18,23 +18,27 @@ class PostsController extends AppController
 
     }
 
-    public function index() {
+    public function index() 
+    {
         $posts = $this->Post->all();
-        echo $this->render( 'admin.posts.index.html.twig', ['articles' => $posts]);
+        echo $this->render('admin.posts.index.html.twig', ['articles' => $posts]);
     }
 
-    public function add() {
+    public function add() 
+    {
 
         if(!empty($_POST)) {
 
-            $result = $this->Post->create([
-               'titre' => $_POST['titre'],
-               'chapo' => $_POST['chapo'],
+            $result = $this->Post->create(
+                [
+                'titre' => $_POST['titre'],
+                'chapo' => $_POST['chapo'],
                 'auteur' => $_POST['auteur'],
-               'contenu' => $_POST['contenu'],
-				'date' => date('Y/m/d H:i:s')
+                'contenu' => $_POST['contenu'],
+                'date' => date('Y/m/d H:i:s')
 
-            ]);
+                ]
+            );
             if($result) {
                 echo $this->index();
             }
@@ -44,18 +48,21 @@ class PostsController extends AppController
         echo $this->render('posts.add.html.twig', ['form' => $form]);
     }
 
-    public function edit(){
+    public function edit()
+    {
 
         if (!empty($_POST)) {
 
-            $result = $this->Post->update($_GET['id'], [
-               'titre' => $_POST['titre'],
-               'chapo' => $_POST['chapo'],
-               'contenu' => $_POST['contenu'],
+            $result = $this->Post->update(
+                $_GET['id'], [
+                'titre' => $_POST['titre'],
+                'chapo' => $_POST['chapo'],
+                'contenu' => $_POST['contenu'],
                 'auteur' => $_POST['auteur'],
-				'date_modif' => date('Y/m/d H:i:s')
-            ]);
-            if($result){
+                'date_modif' => date('Y/m/d H:i:s')
+                ]
+            );
+            if($result) {
                 echo $this->index();
             }
         }
@@ -66,10 +73,11 @@ class PostsController extends AppController
 
     }
 
-    public function delete() {
+    public function delete() 
+    {
         if (!empty($_POST)) {
             $result = $this->Post->delete($_POST['id']);
-            if($result){
+            if($result) {
                 echo $this->index();
             }
         }

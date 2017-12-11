@@ -2,22 +2,24 @@
 namespace Core\HTML;
 use \Twig_Extension;
 
-class Form extends Twig_Extension {
+class Form extends Twig_Extension
+{
     /***
-     *@var array Données utilisées par le formulaire
+     * @var array Données utilisées par le formulaire
      */
     protected $data;
 
     /***
-     *@var string Tag utilisé  pour entourer les champs
+     * @var string Tag utilisé  pour entourer les champs
      */
     public $surround = 'p';
 
     /***
-     *@param array $data Données utilisées par le formulaire
+     * @param array $data Données utilisées par le formulaire
      */
 
-    public function __construct($data = array()) {
+    public function __construct($data = array()) 
+    {
         $this->data = $data;
     }
 
@@ -26,16 +28,18 @@ class Form extends Twig_Extension {
      * @param $label
      * @return string
      */
-    protected function surround($html, $label) {
+    protected function surround($html, $label) 
+    {
         return "<{$this->surround}>{$html}</{$this->surround}>";
     }
 
     /***
-     *@param $index string Index de la valeur à récupérer
-     *@return string
+     * @param $index string Index de la valeur à récupérer
+     * @return string
      */
 
-    protected function getValue($index) {
+    protected function getValue($index) 
+    {
         if(is_object($this->data)) {
             return $this->data->$index;
         }
@@ -45,22 +49,25 @@ class Form extends Twig_Extension {
     /***
      * @param $name string
      * @param $label
-     * @param array $options
+     * @param array       $options
      * @return string
      */
 
-    public function input($name, $label, $options = []) {
+    public function input($name, $label, $options = []) 
+    {
         $type = isset($label, $options['type']) ? $options['type'] : 'text';
         return $this->surround('<input type="'.$type.'" name="'.$name.'" value"'.$this->getValue($name).'">', '<label>'.$label.'</label>');
     }
 
 
     /***
-     *@return string
+     * @return string
      */
 
-    public function submit() {
+    public function submit() 
+    {
         return $this->surround('<button type="submit">Envoyer</button>', null);
     }
 
 }
+

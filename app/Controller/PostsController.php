@@ -3,21 +3,24 @@
 namespace App\Controller;
 use \App;
 
-class PostsController extends AppController {
+class PostsController extends AppController
+{
 
 
-	/**
-	 * PostsController constructor.
-	 * @param \Twig_Environment $twig
-	 */
-	public function __construct(\Twig_Environment $twig)
+    /**
+     * PostsController constructor.
+     *
+     * @param \Twig_Environment $twig
+     */
+    public function __construct(\Twig_Environment $twig)
     {
         parent::__construct($twig);
         $this->loadModel('Post');
     }
 
 
-    public function index()  {
+    public function index()  
+    {
 
         $posts = $this->Post->last();
         echo $this->render('posts.html.twig', ['articles' => $posts]);
@@ -25,7 +28,8 @@ class PostsController extends AppController {
     }
 
 
-    public function show() {
+    public function show() 
+    {
         $posts = $this->Post->findwithCategory($_GET['id']);
         echo $this->render('show.html.twig', ['articles' => $posts]);
     }

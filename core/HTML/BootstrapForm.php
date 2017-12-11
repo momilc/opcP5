@@ -5,8 +5,6 @@ namespace Core\HTML;
 class BootstrapForm extends Form
 {
 
-
-
     /***
      * @param $html string Code HTML à entourer
      * @param $label
@@ -21,7 +19,7 @@ class BootstrapForm extends Form
     /***
      * @param $name string
      * @param $label
-     * @param array $options
+     * @param array       $options
      * @return string
      */
 
@@ -37,7 +35,8 @@ class BootstrapForm extends Form
         return $this->surround($label, $input);
     }
 
-    public function textarea($name, $label, $options = []) {
+    public function textarea($name, $label, $options = []) 
+    {
         return $this->input($name, $label, array_merge($options, ['type'=>'textarea']));
     }
 
@@ -63,6 +62,5 @@ class BootstrapForm extends Form
     {
         return $this->surround('<button type="submit" class="btn btn-primary">Envoyer</button>', null);
     }
-
 
 }
