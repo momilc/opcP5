@@ -27,7 +27,7 @@ class Table extends Twig_Extension
     }
 
     public function all(){
-        return $this->query('SELECT * FROM '. $this->table);
+        return $this->query("SELECT * FROM {$this->table}");
     }
 
     public function find($id) {
