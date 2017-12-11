@@ -1,0 +1,39 @@
+{% extends 'default.html.twig' %}
+
+{% block head %}
+    <title>Accueil</title>
+{% endblock %}
+
+{% block body %}
+
+{% block content %}
+    <h1 class="text-uppercase font-weight-bold text-center">Réalisations</h1>
+    <!-- START THE FEATURETTES -->
+
+    <div class="row">
+        {% for row in articles | batch(1) %}
+            <div class="col-md-4">
+                {% for article in row %}
+                <h2 class="featurette-heading">
+                    <a href="{{ article.url }}">
+                        {{ article.titre }}
+                    </a>
+                </h2>
+                    <img class="featurette-image img-fluid mx-auto align-center" src="images/image-{{ article.id }}.png" alt="Generic placeholder image">
+                    <h4 class="jumbotron text-uppercase"> {{ article.chapo }}</h4>
+                    <p class="lead"> {{ article.extrait | nl2br }}</p>
+                    <p class="lead">Auteur :  {{ article.auteur | nl2br }}</p>
+                <p class="text-uppercase text-muted">Date d'ajout : {{ article.date }}</p>
+                <p>
+                <a href="{{ article.url }}" class="btn btn-outline-dark">
+                    Voir l'article
+                </a></p>
+            </div>
+
+
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+{% endblock %}
+{% endblock body %}

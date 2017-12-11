@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b7efd88-067c-48d9-8795-366592d592aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/opcP5.iml" afterPath="$PROJECT_DIR$/.idea/opcP5.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/App.php" afterPath="$PROJECT_DIR$/app/App.php" />
-      <change beforePath="$PROJECT_DIR$/app/Autoloader.php" afterPath="$PROJECT_DIR$/app/Autoloader.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/Admin/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/AppController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/Admin/PostsController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/HomeController.php" afterPath="$PROJECT_DIR$/app/Controller/HomeController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/PostsController.php" afterPath="$PROJECT_DIR$/app/Controller/PostsController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Entity/PostEntity.php" afterPath="$PROJECT_DIR$/app/Entity/PostEntity.php" />
-      <change beforePath="$PROJECT_DIR$/app/Table/PostTable.php" afterPath="$PROJECT_DIR$/app/Table/PostTable.php" />
-      <change beforePath="$PROJECT_DIR$/app/Views/admin/posts/posts.add.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/posts.add.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" afterPath="$PROJECT_DIR$/app/Views/admin/posts/posts.edit.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/404.html.twig" afterPath="$PROJECT_DIR$/app/Views/home/404.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/home/index.html.twig" afterPath="$PROJECT_DIR$/app/Views/home/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/posts/show.html.twig" afterPath="$PROJECT_DIR$/app/Views/posts/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Views/templates/default.html.twig" afterPath="$PROJECT_DIR$/app/Views/templates/default.html.twig" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/core/Autoloader.php" afterPath="$PROJECT_DIR$/core/Autoloader.php" />
-      <change beforePath="$PROJECT_DIR$/core/Config.php" afterPath="$PROJECT_DIR$/core/Config.php" />
-      <change beforePath="$PROJECT_DIR$/core/Controller/Controller.php" afterPath="$PROJECT_DIR$/core/Controller/Controller.php" />
-      <change beforePath="$PROJECT_DIR$/core/Database/Database.php" afterPath="$PROJECT_DIR$/core/Database/Database.php" />
-      <change beforePath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" afterPath="$PROJECT_DIR$/core/Database/MysqlDatabase.php" />
-      <change beforePath="$PROJECT_DIR$/core/Entity/Entity.php" afterPath="$PROJECT_DIR$/core/Entity/Entity.php" />
-      <change beforePath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" afterPath="$PROJECT_DIR$/core/HTML/BootstrapForm.php" />
-      <change beforePath="$PROJECT_DIR$/core/HTML/Form.php" afterPath="$PROJECT_DIR$/core/HTML/Form.php" />
-      <change beforePath="$PROJECT_DIR$/core/Table/Table.php" afterPath="$PROJECT_DIR$/core/Table/Table.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -481,14 +445,7 @@
       <workItem from="1512947932755" duration="4680000" />
       <workItem from="1512985443514" duration="18590000" />
       <workItem from="1513011862785" duration="4239000" />
-      <workItem from="1513018183978" duration="4008000" />
-    </task>
-    <task id="LOCAL-00003" summary="Deleted folder config and config.php file inside that folder&#10;Changed config.php path name">
-      <created>1508114703641</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1508114703641</updated>
+      <workItem from="1513018183978" duration="4080000" />
     </task>
     <task id="LOCAL-00004" summary="Changed config.php path name to /core/config.php">
       <created>1508115303365</created>
@@ -826,11 +783,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513014145864</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Recommandations Insights Terminer le code par une nouvelle ligne vide.">
+      <created>1513023711876</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1513023711876</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607222000" />
+    <option name="totallyTimeSpent" value="607294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -949,7 +913,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="Bootstratping Part 2" />
     <MESSAGE value="Remove Login Part and Added PhpMailer Form." />
     <MESSAGE value="Social Medias" />
     <MESSAGE value="Date de l'article..." />
@@ -974,7 +937,8 @@
     <MESSAGE value="Let see after composer mess" />
     <MESSAGE value="NEW" />
     <MESSAGE value="La suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="La suite" />
+    <MESSAGE value="Recommandations Insights Terminer le code par une nouvelle ligne vide." />
+    <option name="LAST_COMMIT_MESSAGE" value="Recommandations Insights Terminer le code par une nouvelle ligne vide." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1025,6 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,6 +1004,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

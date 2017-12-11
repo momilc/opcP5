@@ -1,0 +1,74 @@
+body {
+
+    background-color: #1d1f21;
+}
+
+.bg-dark {
+  background-color: #f1f1e4;
+}
+
+.list-group-item-dark {
+    color: #59626b;
+    background-color: #c6c8ca;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(25, 8, 8, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #545479;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(183, 149, 191, 0.9);
+}
+
+.btn-outline-success {
+
+    background-color: transparent;
+    background-image: none;
+    border-color: #68736a;
+}
+
+a {
+    color: #425569;
+}
+
+p {
+    heading: display-4;
+}
+
+a:hover {
+    color: #051f31;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+
+    border-color: rgba(226, 159, 159, 0.1);
+    text-decoration-line: none;
+}
+
+dl, ol, ul {
+
+    list-style-type: none;
+
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+footer  {
+
+    color: #c5b181;
+}
+
+
+
